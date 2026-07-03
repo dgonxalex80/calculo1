@@ -1,0 +1,156 @@
+---
+title: "Unidad 6: Taller integrador y parcial 1"
+description: "Semana 6 taller de repaso"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 6 taller de repaso. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Integrar aritmética, álgebra y geometría analítica.
+- Resolver problemas aplicados con porcentajes y proporciones.
+- Despejar fórmulas.
+- Preparar el primer parcial con ejercicios mixtos.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Semanas 1 a 5 completas.
+- Lectura cuidadosa de problemas verbales.
+- Uso de unidades y porcentajes.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+El repaso no introduce un tema aislado: entrena la selección de herramientas. Antes de operar, identifica si el problema pide porcentaje, ecuación, factorización, despeje o geometría.
+
+En porcentajes, aumentar 20% y luego disminuir 20% no regresa necesariamente al valor inicial porque la base cambia.
+
+En sucesiones aritméticas se suma una cantidad fija; en patrones geométricos se multiplica por una razón fija.
+
+Despejar una variable significa dejarla sola aplicando operaciones inversas de forma equilibrada.
+
+## Ampliación conceptual basada en el libro
+
+El repaso del libro combina modelos verbales con ecuaciones. Una estrategia útil es subrayar cantidades conocidas, variable y condición final.
+
+Los porcentajes deben tratarse como factores multiplicativos: aumentar $r\%$ equivale a multiplicar por $1+\frac{r}{100}$.
+
+Los despejes son más claros cuando se identifica qué operaciones están afectando a la variable objetivo.
+
+## Fórmulas y criterios clave
+
+- $\text{Porcentaje}=\frac{\text{parte}}{\text{total}}\cdot 100$
+- $A_n=A_1+(n-1)d$
+- $G_n=G_1r^{n-1}$
+- $A=P\left(1+\frac{i}{100}\right)^2$
+
+## Ejemplos guiados
+
+- **Descuento:** 160000 sin IVA de 19%: precio base = $160000/1.19$, si el precio original incluía IVA.
+- **Ahorro aritmético:** $5000,6000,7000,\ldots$; semana 10: $5000+9(1000)=14000$.
+- **Despeje:** $a^2x+a-1=(a+1)x\Rightarrow x(a^2-a-1)=1-a\Rightarrow x=\frac{1-a}{a^2-a-1}$.
+
+## Ejercicios resueltos adicionales
+
+- **Incremento de área.** Un rectángulo pasa de $20\text{ m}^2$ a $26\text{ m}^2$. ¿Cuál fue el porcentaje de aumento?
+
+  **Solución explicada.** El aumento fue $6\text{ m}^2$. Entonces $\frac{6}{20}\cdot 100=30\%$.
+
+- **Despeje con raíz.** Despeja $r$ en $A=\pi r^2$.
+
+  **Solución explicada.** Dividimos por $\pi$: $\frac{A}{\pi}=r^2$. Tomamos raíz positiva porque $r$ es radio: $r=\sqrt{\frac{A}{\pi}}$.
+
+## Problemas resueltos con contexto
+
+- **Ahorro semanal.** Una estudiante ahorra $5000$ pesos la primera semana y aumenta $1000$ cada semana. ¿Cuánto ahorra en la semana $10$?
+
+  **Solución.** Es una sucesión aritmética: $A_n=A_1+(n-1)d$. Entonces $A_{10}=5000+9(1000)=14000$ pesos.
+
+- **Descuento real.** Un producto de $60000$ pesos recibe descuento del $20\%$ y luego aumento del $20\%$. ¿Vuelve a $60000$?
+
+  **Solución.** Después del descuento queda $60000(0.8)=48000$. Luego aumenta a $48000(1.2)=57600$. No vuelve al precio inicial.
+
+## Problemas propuestos con contexto
+
+- Una alcancía inicia con $10000$ pesos y cada semana agrega $2500$. ¿Cuánto tendrá en la semana $16$?
+
+- Un producto aumenta $15\%$ y luego baja $15\%$. Prueba con $100000$ pesos si vuelve al valor inicial.
+
+- Despeja $r$ en la fórmula de interés simple $I=Prt$ y explica qué representa cada variable.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Calcula el mayor aporte si 15% equivale a 9000000.
+
+- Halla el precio con día sin IVA de un producto de 160000.
+
+- Aplica descuento del 20% y luego aumento del 20% a 60000.
+
+- Resuelve un problema de salarios con fracciones 4/5 y 3/5.
+
+- Calcula porcentaje de descuento de 18.98 a 9.97.
+
+- Simplifica una expresión con potencias y radicales del taller.
+
+- Racionaliza $\frac{2(x-y)}{\sqrt{x-y}}$.
+
+- Despeja i en $A=P\left(1+\frac{i}{100}\right)^2$.
+
+- Determina h para que una cuadrática tenga raíz doble.
+
+- Resuelve el problema del jardín rectangular de perímetro 200 y área 2400.
+
+## Más problemas propuestos
+
+- Teórico: despeja $h$ en $V=\frac{1}{3}\pi r^2h$.
+
+- Contexto: un precio de $85000$ aumenta $12\%$. Calcula el nuevo precio.
+
+- Teórico: explica la diferencia entre una sucesión aritmética y una geométrica con ejemplos.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Repaso de fundamentos | Capítulo 1 Repaso | 124 | Ejercicios impares 1-61 |
+| Examen de capítulo | Capítulo 1 Examen | 128 | Ejercicios impares para diagnóstico |
+| Ajuste lineal de datos | Enfoque sobre modelado, cap. 1 | 130 | Problemas de aplicación seleccionados |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

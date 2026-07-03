@@ -1,0 +1,160 @@
+---
+title: "Unidad 11: Funciones racionales, asíntotas y variación"
+description: "Libro cap. 3, sección funciones racionales"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Libro cap. 3, sección funciones racionales. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Determinar dominio de funciones racionales.
+- Identificar asíntotas verticales, horizontales y huecos.
+- Graficar funciones racionales básicas.
+- Resolver aplicaciones de razón y variación.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Factorización.
+- Dominio de funciones.
+- Ceros de polinomios.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Una función racional es cociente de polinomios $\frac{P(x)}{Q(x)}$, con $Q(x)$ distinto de cero.
+
+Los ceros del denominador que no se cancelan producen asíntotas verticales. Si un factor se cancela, aparece un hueco en la gráfica.
+
+La asíntota horizontal depende de los grados: si grado de P menor que grado de Q, $y=0$; si son iguales, y es cociente de coeficientes principales.
+
+Estas funciones modelan tasas, costos promedio, concentración y relaciones inversas.
+
+## Ampliación conceptual basada en el libro
+
+Las funciones racionales aparecen al estudiar razones: costo promedio, velocidad promedio, densidad y concentración.
+
+Las asíntotas describen comportamiento límite, no valores que la función necesariamente toma.
+
+Una discontinuidad removible aparece cuando un factor se cancela; una asíntota vertical aparece cuando el factor permanece en el denominador.
+
+## Fórmulas y criterios clave
+
+- Dominio: reales excepto $Q(x)$=0
+
+- Asíntota vertical: factor no cancelado del denominador = 0
+
+- Si $\deg P<\deg Q$, AH: $y=0$
+
+- Si $\deg P=\deg Q$, AH: $y=\frac{a_n}{b_n}$
+
+## Ejemplos guiados
+
+- **Dominio:** $f(x)=\frac{5x}{x^2-3x-4}$ excluye $x=4$ y $x=-1$.
+
+- **Hueco:** $\frac{x^2-1}{x-1}=x+1$, pero $x=1$ no pertenece al dominio original.
+
+- **Asíntotas:** $f(x)=\frac{2}{x-3}+1$ tiene AV $x=3$ y AH $y=1$.
+
+## Ejercicios resueltos adicionales
+
+- **Hueco en una gráfica.** Analiza $f(x)=\frac{x^2-4}{x-2}$.
+
+  **Solución explicada.** Factorizamos: $f(x)=\frac{(x-2)(x+2)}{x-2}=x+2$, con $x\ne 2$. La gráfica es la recta $y=x+2$ con un hueco en $x=2$.
+
+- **Asíntota vertical.** Encuentra la asíntota vertical de $g(x)=\frac{5}{x+1}$.
+
+  **Solución explicada.** El denominador se anula en $x=-1$ y no hay cancelación. La asíntota vertical es $x=-1$.
+
+## Problemas resueltos con contexto
+
+- **Costo promedio.** Una empresa tiene costo total $C(x)=5000+20x$. El costo promedio es $A(x)=\frac{5000+20x}{x}$. Simplifica e interpreta.
+
+  **Solución.** Se obtiene $A(x)=\frac{5000}{x}+20$. A mayor producción, $\frac{5000}{x}$ baja y el promedio se acerca a $20$.
+
+- **Concentración.** La concentración de una mezcla se modela con $M(t)=\frac{30}{t+2}$. ¿Qué ocurre cuando $t$ crece?
+
+  **Solución.** Cuando $t$ aumenta, el denominador crece y $M(t)$ disminuye. La asíntota horizontal es $y=0$.
+
+## Problemas propuestos con contexto
+
+- Un costo promedio está dado por $A(x)=\frac{12000+50x}{x}$. Simplifica e interpreta.
+
+- La rapidez promedio de un viaje es $v(t)=\frac{180}{t}$. Describe su dominio en contexto.
+
+- Analiza la asíntota vertical de $f(x)=\frac{1}{x-5}$ en una situación donde $x=5$ no sea posible.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Halla dominio de $\frac{x+2}{x^2-9}$.
+- Encuentra asíntotas de $\frac{1}{x-4}$.
+
+- Grafica $y=\frac{1}{x}$ y $y=\frac{1}{x+2}-3$.
+
+- Distingue hueco y asíntota en $\frac{x^2-4}{x-2}$.
+
+- Halla interceptos de $\frac{x-1}{x+3}$.
+
+- Determina AH de $\frac{3x^2+1}{x^2-5}$.
+
+- Determina AH de $\frac{x+1}{x^3+2}$.
+
+- Crea una situación de costo promedio $C(x)=\frac{\text{total}}{x}$.
+
+- Resuelve una desigualdad racional sencilla.
+
+- Resume en una tabla dominio, interceptos y asíntotas de una función racional propia.
+
+## Más problemas propuestos
+
+- Teórico: diferencia entre hueco y asíntota vertical usando un ejemplo de cada uno.
+
+- Contexto: un viaje de $120$ km tiene rapidez promedio $v(t)=\frac{120}{t}$. Interpreta la asíntota horizontal.
+
+- Teórico: determina el dominio de $f(x)=\frac{x+3}{x^2-9}$.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Funciones racionales | 3.7 | 288 | Ejercicios impares 1-57 |
+| Modelos de variación | 1.11 | 120 | Ejercicios impares 1-31 |
+| Repaso de polinomiales y racionales | Capítulo 3 Repaso | 292 | Ejercicios impares relacionados |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

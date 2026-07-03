@@ -1,0 +1,159 @@
+---
+title: "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría"
+description: "Semana 5, actividad 5 y libro cap. 1"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 5, actividad 5 y libro cap. 1. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Ubicar puntos y regiones en el plano.
+- Deducir ecuaciones de circunferencias.
+- Completar cuadrados.
+- Analizar intersecciones y simetrías sin graficar completamente.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Pares ordenados.
+- Despeje de variables.
+- Cuadrados perfectos.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Un punto $P(a,b)$ se ubica con coordenada x horizontal y coordenada y vertical.
+
+La circunferencia de centro $(h,k)$ y radio r cumple $(x-h)^2+(y-k)^2=r^2$.
+
+Completar cuadrados transforma $x^2+y^2+ax+by+c=0$ en forma estándar para leer centro y radio.
+
+Las intersecciones con ejes se hallan usando $y=0$ para el eje x y $x=0$ para el eje y.
+
+## Ampliación conceptual basada en el libro
+
+La geometría de coordenadas conecta álgebra con figuras. Una ecuación describe todos los puntos que cumplen una condición geométrica.
+
+La distancia entre puntos se deriva del teorema de Pitágoras; por eso aparece una raíz cuadrada.
+
+Completar cuadrados permite transformar una ecuación general en una forma donde centro y radio se leen directamente.
+
+## Fórmulas y criterios clave
+
+- $d((x_1,y_1),(x_2,y_2))=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
+
+- $(x-h)^2+(y-k)^2=r^2$
+
+- $x^2+ax=\left(x+\frac a2\right)^2-\left(\frac a2\right)^2$
+
+## Ejemplos guiados
+
+- **Centro y punto:** Centro $(4,3)$, punto $(1,4)$: $r^2=(-3)^2+1^2=10$, entonces $(x-4)^2+(y-3)^2=10$.
+
+- **Completar:** $x^2+y^2+10x-2y+17=0\Rightarrow (x+5)^2+(y-1)^2=9$.
+
+- **Simetría:** $y=x^2$ es simétrica respecto al eje y porque cambiar x por -x no altera y.
+
+## Ejercicios resueltos adicionales
+
+- **Zona de seguridad.** Una zona circular tiene centro $(-1,2)$ y radio $4$. Escribe su ecuación y decide si el punto $(2,4)$ está dentro.
+
+  **Solución explicada.** La ecuación es $(x+1)^2+(y-2)^2=16$. Para $(2,4)$: $(3)^2+(2)^2=13<16$, entonces está dentro.
+
+- **Completar cuadrados.** Encuentra centro y radio de $x^2+y^2-6x+4y-3=0$.
+
+  **Solución explicada.** Agrupamos: $(x^2-6x)+(y^2+4y)=3$. Completando: $(x-3)^2+(y+2)^2=16$. Centro $(3,-2)$, radio $4$.
+
+## Problemas resueltos con contexto
+
+- **Cobertura de wifi.** Un router ubicado en $(2,3)$ cubre un radio de $5$ m. Escribe la ecuación de la circunferencia de cobertura.
+
+  **Solución.** La forma es $(x-h)^2+(y-k)^2=r^2$. Entonces $(x-2)^2+(y-3)^2=25$.
+
+- **Distancia en un mapa.** Dos puntos del campus están en $A(1,2)$ y $B(5,5)$. ¿Cuál es la distancia entre ellos?
+
+  **Solución.** Usamos $d=\sqrt{(5-1)^2+(5-2)^2}=\sqrt{16+9}=5$. La distancia es $5$ unidades del mapa.
+
+## Problemas propuestos con contexto
+
+- Una cámara de seguridad está en $(0,0)$ y cubre $8$ m. Escribe la ecuación de su zona de cobertura.
+
+- Calcula la distancia entre una biblioteca en $(-2,4)$ y una cafetería en $(3,-1)$.
+
+- Una fuente circular tiene centro $(4,-2)$ y pasa por $(4,3)$. Halla su radio y ecuación.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Ubica A(2,3), B(-4,0), C(0,-5), D(-2,-3).
+
+- Determina cuadrante o eje de cada punto anterior.
+
+- Halla la circunferencia con centro (0,0) que pasa por (-1,-2).
+
+- Halla la circunferencia con centro (4,-5) que pasa por (7,-3).
+
+- Completa cuadrados en $x^2+y^2+8y=0$.
+
+- Completa cuadrados en $x^2+y^2-20x+16y+128=0$.
+
+- Traza $x^2+y^2\ge 9$.
+
+- Traza $(x-1)^2+(y+5)^2\le 25$.
+
+- Encuentra intersecciones de $y=x^2-4$.
+
+- Decide simetrías de $y^2=16x+4$.
+
+## Más problemas propuestos
+
+- Teórico: deduce la fórmula de distancia a partir de un triángulo rectángulo.
+
+- Contexto: un aspersor está en $(3,1)$ y moja hasta $6$ m. Escribe la desigualdad de la región mojada.
+
+- Teórico: determina si $x^2+y^2=25$ tiene simetría respecto a ambos ejes.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Geometría de coordenadas | 1.8 | 92 | Ejercicios impares 1-45 |
+| Resolución gráfica | 1.9 | 104 | Ejercicios impares 1-35 |
+| Rectas | 1.10 | 114 | Ejercicios impares 1-59 |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

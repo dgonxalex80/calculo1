@@ -1,0 +1,37 @@
+---
+title: "Matemáticas Fundamentales"
+subtitle: "Curso de precálculo organizado por unidades semanales"
+---
+
+# Ruta del curso
+
+Este sitio organiza el curso en 16 unidades independientes. Cada unidad conserva la estructura solicitada: conceptos previos, teoría, ejemplos guiados, ejercicios propuestos y actividades sugeridas antes, durante y después de clase.
+
+El material base corresponde a los documentos entregados en `books` y al libro **Precálculo: Matemáticas para el cálculo** incluido en esa carpeta.
+
+## Unidades
+
+- [Unidad 1: Números reales, operaciones, exponentes y radicales](unidad-01.qmd)
+- [Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones](unidad-02.qmd)
+- [Unidad 3: Expresiones algebraicas, polinomios y productos notables](unidad-03.qmd)
+- [Unidad 4: Factorización, simplificación y racionalización](unidad-04.qmd)
+- [Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría](unidad-05.qmd)
+- [Unidad 6: Taller integrador y parcial 1](unidad-06.qmd)
+- [Unidad 7: Funciones, dominio, rango, gráficas y función lineal](unidad-07.qmd)
+- [Unidad 8: Función cuadrática y función definida a trozos](unidad-08.qmd)
+- [Unidad 9: Composición de funciones y función inversa](unidad-09.qmd)
+- [Unidad 10: Funciones polinomiales, división, residuo, factor y ceros](unidad-10.qmd)
+- [Unidad 11: Funciones racionales, asíntotas y variación](unidad-11.qmd)
+- [Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo](unidad-12.qmd)
+- [Unidad 13: Funciones exponenciales y crecimiento](unidad-13.qmd)
+- [Unidad 14: Funciones logarítmicas y propiedades](unidad-14.qmd)
+- [Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones](unidad-15.qmd)
+- [Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno](unidad-16.qmd)
+
+## Recomendación de uso
+
+1. Lee los conceptos previos de la unidad.
+2. Estudia la teoría esencial y copia las fórmulas clave en tu cuaderno.
+3. Reproduce los ejemplos guiados sin saltar pasos.
+4. Resuelve los ejercicios propuestos y marca los errores repetidos.
+5. Formula una pregunta concreta para clase o tutoría.

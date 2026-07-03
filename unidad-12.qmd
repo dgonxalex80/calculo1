@@ -1,0 +1,163 @@
+---
+title: "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo"
+description: "Semana 12 y libro caps. 5, 6 y 7"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 12 y libro caps. 5, 6 y 7. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Convertir grados y radianes.
+- Usar seno, coseno, tangente y recíprocas.
+- Verificar identidades fundamentales.
+- Resolver triángulos rectángulos y ecuaciones trigonométricas simples.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Ángulos y proporciones.
+- Teorema de Pitágoras.
+- Funciones e inversas.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Un ángulo en posición normal tiene vértice en el origen y lado inicial en el eje x. Los radianes miden ángulo por longitud de arco sobre radio.
+
+En un triángulo rectángulo, $\sin\theta=\frac{\text{opuesto}}{\text{hipotenusa}}$, $\cos\theta=\frac{\text{adyacente}}{\text{hipotenusa}}$ y $\tan\theta=\frac{\text{opuesto}}{\text{adyacente}}$.
+
+Las identidades permiten transformar expresiones sin cambiar su valor en el dominio común.
+
+Las ecuaciones trigonométricas pueden tener infinitas soluciones por periodicidad.
+
+## Ampliación conceptual basada en el libro
+
+El libro presenta dos enfoques complementarios: circunferencia unitaria y triángulo rectángulo. Ambos describen las mismas razones trigonométricas.
+
+Los radianes son naturales para funciones trigonométricas porque conectan ángulo y longitud de arco.
+
+Las identidades trigonométricas se verifican transformando un lado de la igualdad hasta obtener el otro, respetando el dominio.
+
+## Fórmulas y criterios clave
+
+- $180^\circ=\pi\text{ rad}$
+
+- $\sin^2(x)+\cos^2(x)=1$
+
+- $\tan(x)=\frac{\sin(x)}{\cos(x)}$
+
+- $1+\tan^2(x)=\sec^2(x)$
+
+## Ejemplos guiados
+
+- **Conversión:** $60^\circ=\frac{60\pi}{180}=\frac{\pi}{3}\text{ rad}$.
+
+- **Triángulo:** Si $\cos\theta=\frac34$, entonces hipotenusa 4, adyacente 3, opuesto $\sqrt7$.
+
+- **Altura:** A 25 pies y ángulo 30 grados: $h=25\tan(30^\circ)$.
+
+## Ejercicios resueltos adicionales
+
+- **Longitud de arco.** Una rueda de radio $0.4$ m gira un ángulo de $3$ rad. ¿Qué distancia recorre un punto del borde?
+
+  **Solución explicada.** La longitud de arco es $s=r\theta=0.4(3)=1.2$ m.
+
+- **Identidad básica.** Simplifica $\frac{\sin x}{\cos x}\cdot \cos x$ donde $\cos x\ne 0$.
+
+  **Solución explicada.** Se cancela $\cos x$ y queda $\sin x$. También puede reconocerse como $\tan x\cos x=\sin x$.
+
+## Problemas resueltos con contexto
+
+- **Altura de un poste.** Una persona está a $25$ m de un poste y observa su punta con ángulo de elevación $30^\circ$. Halla la altura.
+
+  **Solución.** Usamos $\tan(30^\circ)=\frac{h}{25}$. Entonces $h=25\tan(30^\circ)\approx 14.43$ m.
+
+- **Rampa de acceso.** Una rampa sube $1.2$ m y forma un ángulo de $8^\circ$ con el suelo. ¿Cuál es su longitud aproximada?
+
+  **Solución.** Como $\sin(8^\circ)=\frac{1.2}{L}$, entonces $L=\frac{1.2}{\sin(8^\circ)}\approx 8.62$ m.
+
+## Problemas propuestos con contexto
+
+- Desde un punto a $40$ m de un edificio se mide un ángulo de elevación de $35^\circ$. Estima la altura.
+
+- Una escalera de $6$ m forma $70^\circ$ con el piso. ¿A qué altura llega?
+
+- Un dron está a $50$ m de distancia horizontal y se observa con ángulo $42^\circ$. Calcula su altura.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Convierte 60 grados a radianes.
+
+- Convierte $\pi/6$ rad a grados.
+
+- Halla el complementario de 74.23 grados.
+
+- Halla el suplementario de $\pi/3$.
+
+- Calcula las seis razones trigonométricas de un triángulo 3-4-5.
+
+- Si $\cos\theta=\frac34$, halla las otras razones.
+
+- Verifica $\frac{\sin^2(x)}{1-\cos(x)}=1+\cos(x)$, donde aplique.
+
+- Resuelve $\sin(x)=\frac{\sqrt2}{2}$ en 0 a $2\pi$.
+
+- Calcula la altura de un asta con distancia 25 pies y ángulo 30 grados.
+
+- Resuelve un problema de diagonal de caja rectangular.
+
+## Más problemas propuestos
+
+- Teórico: convierte $225^\circ$ a radianes.
+
+- Contexto: una rueda de radio $30$ cm gira $\frac{5\pi}{3}$ rad. Calcula la longitud de arco.
+
+- Teórico: verifica $1-\cos^2 x=\sin^2 x$ usando la identidad pitagórica.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Circunferencia unitaria | 5.1 | 374 | Ejercicios impares 1-49 |
+| Funciones trigonométricas de números reales | 5.2 | 384 | Ejercicios impares 1-45 |
+| Medida de ángulos | 6.1 | 440 | Ejercicios impares 1-57 |
+| Triángulos rectángulos | 6.2 | 448 | Ejercicios impares 1-51 |
+| Identidades trigonométricas | 7.1 | 498 | Ejercicios impares 1-61 |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

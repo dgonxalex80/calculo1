@@ -1,0 +1,159 @@
+---
+title: "Unidad 13: Funciones exponenciales y crecimiento"
+description: "Semana 13 y libro cap. 4"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 13 y libro cap. 4. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Reconocer funciones exponenciales.
+- Graficar crecimiento y decrecimiento.
+- Aplicar transformaciones.
+- Modelar interés compuesto y crecimiento logístico básico.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Leyes de exponentes.
+- Funciones e inversas.
+- Lectura de gráficas.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Una función exponencial tiene forma $f(x)=a^x$, con $a>0$ y a distinto de 1. Si $a>1$ crece; si $0<a<1$ decrece.
+
+Todas las gráficas $y=a^x$ pasan por (0,1) y tienen asíntota horizontal $y=0$ antes de transformaciones.
+
+La base e aparece en crecimiento continuo y modelos naturales.
+
+El interés compuesto usa una potencia porque el capital se actualiza en cada periodo.
+
+## Ampliación conceptual basada en el libro
+
+Las funciones exponenciales modelan cambios porcentuales constantes. La variable aparece en el exponente porque el cambio se acumula por periodos.
+
+Si la base es mayor que $1$, hay crecimiento; si está entre $0$ y $1$, hay decrecimiento.
+
+La función $e^x$ aparece en modelos de crecimiento continuo y sirve como base natural para cálculo.
+
+## Fórmulas y criterios clave
+
+- $f(x)=a^x$
+
+- $f(x)=Aa^x$
+
+- $A=P\left(1+\frac rn\right)^{nt}$
+
+- $f(x)=e^x$
+
+## Ejemplos guiados
+
+- **Crecimiento:** $f(x)=3^x$: $f(0)=1$, $f(1)=3$, $f(2)=9$.
+
+- **Decrecimiento:** $f(x)=\left(\frac13\right)^x$ disminuye y pasa por (0,1).
+
+- **Interés:** P=1000, r=0.12, mensual, t=1: $A=1000\left(1+\frac{0.12}{12}\right)^{12}$.
+
+## Ejercicios resueltos adicionales
+
+- **Duplicación.** Una población inicial de $300$ bacterias se duplica cada hora. Modela y calcula después de $5$ horas.
+
+  **Solución explicada.** El modelo es $P(t)=300\cdot 2^t$. Entonces $P(5)=300\cdot 32=9600$ bacterias.
+
+- **Decrecimiento porcentual.** Un equipo de $5000000$ pesos pierde $18\%$ anual. ¿Cuánto vale tras $3$ años?
+
+  **Solución explicada.** El modelo es $V(t)=5000000(0.82)^t$. Entonces $V(3)=5000000(0.82)^3\approx 2756840$ pesos.
+
+## Problemas resueltos con contexto
+
+- **Crecimiento de seguidores.** Una cuenta tiene $1000$ seguidores y crece $8\%$ mensual. Modela los seguidores después de $t$ meses.
+
+  **Solución.** El modelo es $F(t)=1000(1.08)^t$. Después de $6$ meses: $F(6)=1000(1.08)^6\approx 1587$.
+
+- **Depreciación.** Un computador de $3000000$ pesos pierde $12\%$ de valor anual. Modela su valor después de $t$ años.
+
+  **Solución.** El modelo es $V(t)=3000000(0.88)^t$.
+
+## Problemas propuestos con contexto
+
+- Una población de bacterias se duplica cada $3$ horas. Si inicia con $500$, escribe el modelo.
+- Una moto de $8000000$ pesos pierde $15\%$ anual. Modela su valor después de $t$ años.
+- Un ahorro de $1000000$ crece al $1.5\%$ mensual. Calcula el valor después de $12$ meses.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Completa tabla para $f(x)=3^x$ con x=-2,-1,0,1,2.
+
+- Completa tabla para $f(x)=\left(\frac13\right)^x$.
+
+- Identifica intersección con eje y y asíntota de $4^x$.
+
+- Grafica $2^x+3$.
+
+- Grafica $2^{x-1}$.
+
+- Decide si una función exponencial es creciente o decreciente.
+
+- Calcula interés compuesto anual y mensual para el mismo capital.
+
+- Modela una población que se duplica cada 5 horas.
+
+- Interpreta una función logística de forma verbal.
+
+- Compara crecimiento lineal y exponencial con una tabla.
+
+## Más problemas propuestos
+
+- Teórico: compara las gráficas de $2^x$ y $\left(\frac12\right)^x$.
+
+- Contexto: una inversión crece $6\%$ anual. Modela $A(t)$ si inicia en $2000000$ pesos.
+
+- Teórico: explica por qué $a^0=1$ hace que toda exponencial $a^x$ pase por $(0,1)$.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Funciones exponenciales | 4.1 | 306 | Ejercicios impares 1-55 |
+| Función exponencial natural | 4.2 | 312 | Ejercicios impares 1-35 |
+| Modelado exponencial | 4.6 | 350 | Ejercicios impares 1-45 |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

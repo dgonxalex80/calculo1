@@ -1,0 +1,159 @@
+---
+title: "Unidad 8: Función cuadrática y función definida a trozos"
+description: "Semana 8, documento de función cuadrática y libro cap. 2"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 8, documento de función cuadrática y libro cap. 2. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Graficar parábolas desde vértice e intersecciones.
+- Usar discriminante para saber cuántos cortes hay.
+- Resolver problemas de máximo y mínimo.
+- Interpretar funciones definidas por intervalos.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Factorización.
+- Fórmula cuadrática.
+- Plano cartesiano y funciones.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Una función cuadrática tiene forma $f(x)=ax^2+bx+c$ con a distinto de cero. Si $a>0$ abre hacia arriba; si $a<0$ abre hacia abajo.
+
+El vértice está en $x=-\frac{b}{2a}$ y su valor es $f\left(-\frac{b}{2a}\right)$. Allí ocurre mínimo si $a>0$ y máximo si $a<0$.
+
+El discriminante $b^2-4ac$ indica los cortes con el eje x: dos, uno o ninguno.
+
+Una función a trozos usa reglas diferentes en partes distintas del dominio. En los puntos de cambio se revisan valor, continuidad e intersecciones.
+
+## Ampliación conceptual basada en el libro
+
+Las funciones cuadráticas modelan situaciones con máximos o mínimos, como áreas, ganancias y movimiento vertical.
+
+El signo de $a$ determina la apertura de la parábola y la naturaleza del vértice: mínimo si $a>0$, máximo si $a<0$.
+
+En funciones a trozos, el análisis debe hacerse intervalo por intervalo y revisar los puntos de cambio.
+
+## Fórmulas y criterios clave
+
+- $x_v=-\frac{b}{2a}$
+
+- $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
+
+- $f(0)=c$
+
+- $D=b^2-4ac$
+
+## Ejemplos guiados
+
+- **Raíces:** $x^2+5x-24=0\Rightarrow (x-3)(x+8)=0\Rightarrow x=3,-8$.
+- **Vértice:** $f(x)=x^2-2x-3$: $x_v=1$, $f(1)=-4$, vértice (1,-4).
+- **Cohete:** $s(t)=-16t^2+96t+256$: $t_v=3$, altura máxima $s(3)=400$.
+
+## Ejercicios resueltos adicionales
+
+- **Área máxima.** Con $40$ m de cerca se arma un rectángulo junto a una pared, usando cerca para tres lados. Si el ancho es $x$, el área es $A(x)=x(40-2x)$. Maximiza.
+
+  **Solución explicada.** Expandimos $A(x)=-2x^2+40x$. El vértice está en $x=-\frac{40}{2(-2)}=10$. El largo es $20$ y el área máxima $200\text{ m}^2$.
+
+- **Continuidad a trozos.** Sea $f(x)=x+1$ si $x<2$ y $f(x)=5$ si $x\ge 2$. ¿Es continua en $x=2$?
+
+  **Solución explicada.** Por la izquierda, $x+1\to 3$. Pero $f(2)=5$. Como no coinciden, no es continua.
+
+## Problemas resueltos con contexto
+
+- **Lanzamiento de pelota.** La altura de una pelota está dada por $h(t)=-5t^2+20t+1$. ¿Cuándo alcanza su altura máxima?
+
+  **Solución.** El tiempo del vértice es $t=-\frac{b}{2a}=-\frac{20}{2(-5)}=2$. La altura máxima es $h(2)=-20+40+1=21$ m.
+
+- **Ingreso por precio.** Una tienda modela su ganancia como $G(x)=-2x^2+80x-300$. ¿Qué valor de $x$ maximiza la ganancia?
+
+  **Solución.** Como $a<0$, el máximo está en el vértice: $x=-\frac{80}{2(-2)}=20$.
+
+## Problemas propuestos con contexto
+
+- Un objeto sigue $s(t)=-16t^2+64t+5$. Halla el tiempo de altura máxima.
+
+- Una ganancia se modela por $P(x)=-x^2+30x-125$. Encuentra el valor de $x$ que maximiza.
+
+- Diseña una función a trozos para una tarifa de parqueadero: primera hora fija y horas adicionales con otro costo.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Grafica $y=x^2+5x-24$.
+
+- Halla vértice de $f(x)=2x^2-8x+1$.
+
+- Determina cortes con ejes de $f(x)=-x^2+4x+5$.
+
+- Usa discriminante en $3x^2-2x+7$.
+
+- Encuentra máximo de $-2x^2+12x-5$.
+
+- Resuelve cuándo el cohete s(t) toca el suelo.
+
+- Define una función a trozos con dos rectas y grafícala.
+
+- Indica discontinuidades de una función a trozos dada por tu profesor.
+
+- Crea un problema de ingresos cuadráticos y encuentra el precio óptimo.
+
+- Compara solución por factorización y fórmula cuadrática en un mismo ejercicio.
+
+## Más problemas propuestos
+
+- Teórico: determina el número de raíces reales si $b^2-4ac<0$.
+
+- Contexto: una pelota tiene altura $h(t)=-4.9t^2+15t+2$. Halla cuándo alcanza su máximo.
+
+- Teórico: construye una función a trozos que sea continua en $x=1$.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Transformaciones de funciones | 2.5 | 186 | Ejercicios impares 1-51 |
+| Funciones cuadráticas | 3.1 | 228 | Ejercicios impares 1-57 |
+| Gráficas de funciones | 2.2 | 158 | Ejercicios impares de lectura gráfica |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

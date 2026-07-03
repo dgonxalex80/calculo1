@@ -1,0 +1,161 @@
+---
+title: "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros"
+description: "Semana 10, actividad 10 y libro cap. 3"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 10, actividad 10 y libro cap. 3. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Identificar funciones polinomiales.
+- Dividir polinomios por algoritmo largo y Ruffini.
+- Usar teoremas del residuo y del factor.
+- Factorizar polinomios con ceros racionales.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Polinomios y factorización.
+- Evaluación de funciones.
+- Gráficas básicas.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Toda función polinomial tiene dominio real completo. Su grado y coeficiente principal orientan el comportamiento final de la gráfica.
+
+La división de polinomios escribe $P(x)=D(x)Q(x)+R(x)$, con grado del residuo menor que el divisor.
+
+El teorema del residuo dice que al dividir P(x) entre $x-c$, el residuo es $P(c)$.
+
+El teorema del factor dice que $x-c$ es factor de P(x) exactamente cuando $P(c)$=0.
+
+## Ampliación conceptual basada en el libro
+
+Los polinomios son modelos flexibles: pueden aproximar curvas de datos y describir volúmenes, utilidades o trayectorias.
+
+El teorema del residuo conecta evaluación y división: dividir por $x-c$ tiene residuo $P(c)$.
+
+El teorema del factor permite convertir una raíz conocida en un factor algebraico.
+
+## Fórmulas y criterios clave
+
+- $P(x)=D(x)Q(x)+R(x)$
+
+- Residuo al dividir por $x-c$: $P(c)$
+
+- $x-c$ es factor $\Longleftrightarrow P(c)=0$
+
+- Cero racional posible: $\frac{p}{q}$, con $p\mid a_0$ y $q\mid a_n$
+
+## Ejemplos guiados
+
+- **Residuo:** $P(x)=2x^3-7x^2+5$; al dividir entre $x-3$, el residuo es $P(3)=54-63+5=-4$.
+
+- **Factor:** $P(x)=x^3-7x+6$; $P(1)=0$, entonces $x-1$ es factor.
+
+- **Ceros:** $x^3-4x^2+x+6=(x-2)(x-3)(x+1)$.
+
+## Ejercicios resueltos adicionales
+
+- **Volumen de una caja.** Una caja tiene volumen $V(x)=x^3+6x^2+11x+6$. Verifica si $x+1$ es factor.
+
+  **Solución explicada.** Se evalúa $V(-1)=-1+6-11+6=0$. Entonces $x+1$ es factor.
+
+- **Residuo.** Halla el residuo al dividir $P(x)=3x^3-2x+4$ entre $x-2$.
+
+  **Solución explicada.** El residuo es $P(2)=3(8)-4+4=24$.
+
+## Problemas resueltos con contexto
+
+- **Producción de licuadoras.** La utilidad de una fábrica se modela por $p(x)=8x+0.3x^2-0.0013x^3-372$. ¿Qué representa resolver $p(x)=0$?
+
+  **Solución.** Resolver $p(x)=0$ permite encontrar puntos de equilibrio: cantidades donde la empresa no gana ni pierde.
+
+- **Residuo en empaque.** Un polinomio de volumen $P(x)=x^3-7x+6$ se divide por $x-1$. ¿Cuál es el residuo?
+
+  **Solución.** Por el teorema del residuo, el residuo es $P(1)=1-7+6=0$. Entonces $x-1$ es factor.
+
+## Problemas propuestos con contexto
+
+- Una caja tiene volumen $V(x)=x^3+2x^2-5x-6$. Evalúa $V(2)$ e interpreta.
+
+- Usa el teorema del residuo para dividir $P(x)=2x^3-3x+1$ entre $x-1$.
+
+- Determina si $x+2$ es factor de $P(x)=x^3+3x^2-4x-12$.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Divide $6x^2-26x+12$ entre $x-4$.
+
+- Divide $8x^4-6x^2-3x+1$ entre $2x^2-x+2$.
+
+- Usa Ruffini en $2x^3-7x^2+5$ entre $x-3$.
+
+- Calcula el residuo de $x^{1966}-1$ entre $x-1$.
+
+- Factoriza $x^3-7x+6$.
+
+- Lista ceros racionales posibles de $2x^4+x^3-8x^2-x+6$.
+
+- Factoriza $2x^4+x^3-8x^2-x+6$.
+
+- Determina si $x+1$ es factor de $4x^5-x^3-3x^2+2$.
+
+- Modela la utilidad $p(x)=8x+0.3x^2-0.0013x^3-372$.
+
+- Usa GeoGebra o tabla de valores para estimar un punto de equilibrio.
+
+## Más problemas propuestos
+
+- Teórico: explica la relación entre ceros, factores e intersecciones con el eje $x$.
+
+- Contexto: una utilidad se modela con $U(x)=-x^3+12x^2-20x-50$. ¿Qué significa resolver $U(x)=0$?
+
+- Teórico: usa posibles ceros racionales para listar candidatos de $P(x)=2x^3-x^2-8x+4$.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Funciones polinomiales y gráficas | 3.2 | 242 | Ejercicios impares 1-53 |
+| División de polinomios | 3.3 | 250 | Ejercicios impares 1-45 |
+| Ceros reales y teoremas | 3.4 | 260 | Ejercicios impares 1-61 |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

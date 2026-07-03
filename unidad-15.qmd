@@ -1,0 +1,159 @@
+---
+title: "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones"
+description: "Semana 15, actividad 15 y libro cap. 4"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 15, actividad 15 y libro cap. 4. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Resolver ecuaciones exponenciales con la misma base.
+- Resolver ecuaciones usando logaritmos.
+- Resolver ecuaciones logarítmicas revisando dominio.
+- Aplicar modelos de pH, Richter, decaimiento y aprendizaje.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Exponentes.
+- Leyes de logaritmos.
+- Dominio logarítmico.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Si $a^x=a^y$ con $a>0$ y a distinto de 1, entonces $x=y$. Esta idea resuelve ecuaciones con bases reescribibles.
+
+Cuando las bases no son iguales, se aplican logaritmos a ambos lados.
+
+En ecuaciones logarítmicas, toda solución debe verificarse en el dominio original.
+
+Las escalas logarítmicas comparan razones: una diferencia en magnitud puede representar multiplicar la intensidad.
+
+## Ampliación conceptual basada en el libro
+
+Las ecuaciones exponenciales se resuelven igualando bases cuando es posible o aplicando logaritmos cuando no lo es.
+
+En ecuaciones logarítmicas, las soluciones algebraicas siempre deben comprobarse en el dominio original.
+
+Los modelos logarítmicos aparecen en pH, intensidad sonora y escala de Richter porque comparan órdenes de magnitud.
+
+## Fórmulas y criterios clave
+
+- $a^x=a^y\Longrightarrow x=y$
+
+- $\log_a(x)=\log_a(y)\Longrightarrow x=y$, con $x,y>0$
+
+- $\operatorname{pH}=-\log[H^+]$
+
+- $M=\log\left(\frac IS\right)$
+
+## Ejemplos guiados
+
+- **Misma base:** $2^{x-3}=8^{x+1}=2^{3x+3}\Rightarrow x-3=3x+3\Rightarrow x=-3$.
+
+- **Logarítmica:** $\log x+\log(x+1)=\log 12\Rightarrow x(x+1)=12\Rightarrow x=3$, se descarta $x=-4$.
+
+- **Richter:** Diferencia $8.3-4.9=3.4$; razón de intensidades $=10^{3.4}$.
+
+## Ejercicios resueltos adicionales
+
+- **Resolver con logaritmos.** Resuelve $3^x=20$.
+
+  **Solución explicada.** Aplicamos logaritmos: $x\log 3=\log 20$, por tanto $x=\frac{\log 20}{\log 3}\approx 2.73$.
+
+- **Verificar dominio.** Resuelve $\log(x-1)=\log(5)$.
+
+  **Solución explicada.** Como los logaritmos son uno a uno, $x-1=5$, así $x=6$. Verificación: $6-1=5>0$, válida.
+
+## Problemas resueltos con contexto
+
+- **pH de una bebida.** Si una bebida tiene $[H^+]=10^{-3}$, calcula su pH.
+
+  **Solución.** Usamos $\operatorname{pH}=-\log[H^+]$. Entonces $\operatorname{pH}=-\log(10^{-3})=3$.
+
+- **Vida media.** Una sustancia inicia con $80$ mg y su vida media es $6$ horas. ¿Cuánto queda después de $12$ horas?
+
+  **Solución.** El modelo es $A(t)=80\left(\frac12\right)^{t/6}$. Entonces $A(12)=80\left(\frac12\right)^2=20$ mg.
+
+## Problemas propuestos con contexto
+
+- Una solución tiene $[H^+]=10^{-5}$. Calcula su pH y clasifícala.
+- Una muestra radiactiva inicia con $50$ mg y vida media de $8$ horas. ¿Cuánto queda tras $24$ horas?
+- Un terremoto de magnitud $7.2$ y otro de $5.2$ difieren en intensidad por un factor de cuánto?
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Resuelve $2^{x+5}=8^{x-1}$.
+
+- Resuelve $7^{2(x+1)}=343$.
+
+- Resuelve $\log_5\left(\frac{x+1}{2}\right)=2$.
+
+- Resuelve $\log x+\log(x+1)=\log 12$.
+
+- Resuelve $10^{2x}=48$, redondea.
+
+- Resuelve $100(1.04)^{12t}=300$.
+
+- Usa $\operatorname{pH}=-\log[H^+]$ para clasificar una sustancia.
+
+- Calcula cuántas veces más intenso fue un sismo 8.3 que uno 4.9.
+
+- Modela decaimiento de tecnecio con vida media 6 h.
+
+- Resuelve una curva de aprendizaje $y=A(1-e^{-kt})$ con dos datos.
+
+## Más problemas propuestos
+
+- Teórico: resuelve $e^{2x}=7$ usando $\ln$.
+
+- Contexto: si un cultivo sigue $P(t)=100e^{0.2t}$, encuentra cuándo llega a $500$.
+
+- Teórico: explica por qué $x=-2$ no puede ser solución de $\log(x+1)=3$.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Ecuaciones exponenciales y logarítmicas | 4.5 | 338 | Ejercicios impares 1-83 |
+| Modelado exponencial y logarítmico | 4.6 | 350 | Ejercicios impares 1-57 |
+| Repaso del capítulo | Capítulo 4 Repaso | 353 | Ejercicios impares relacionados |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

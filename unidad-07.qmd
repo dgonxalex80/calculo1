@@ -1,0 +1,155 @@
+---
+title: "Unidad 7: Funciones, dominio, rango, gráficas y función lineal"
+description: "Semana 7, semana 7 PDF y libro cap. 2"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 7, semana 7 PDF y libro cap. 2. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Reconocer cuándo una relación es función.
+- Calcular dominios y rangos básicos.
+- Graficar funciones constantes y lineales.
+- Modelar fenómenos con rectas, pendientes e intersecciones.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Plano cartesiano.
+- Ecuaciones lineales.
+- Despeje de y.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Una función asigna a cada entrada del dominio una única salida. La prueba de la recta vertical detecta si una gráfica representa una función.
+
+El dominio reúne las entradas permitidas. En fracciones se excluyen ceros del denominador; en raíces pares se exige radicando no negativo.
+
+La función lineal $y=mx+b$ tiene pendiente m e intersección con el eje y en b.
+
+Rectas paralelas tienen la misma pendiente; rectas perpendiculares tienen pendientes cuyo producto es -1, si ninguna es vertical.
+
+## Ampliación conceptual basada en el libro
+
+El libro enfatiza que una función es una regla de correspondencia: a cada entrada válida le asigna exactamente una salida.
+
+El dominio se decide desde el contexto y desde la fórmula. En un modelo de tiempo, por ejemplo, valores negativos pueden no tener sentido aunque la fórmula los permita.
+
+La pendiente mide rapidez de cambio promedio constante en funciones lineales.
+
+## Fórmulas y criterios clave
+
+- $m=\frac{y_2-y_1}{x_2-x_1}$
+- $y-y_1=m(x-x_1)$
+- $y=mx+b$
+- $f(x)=g(x)$ en puntos de intersección
+
+## Ejemplos guiados
+
+- **Evaluar:** $f(x)=x^2+4$: $f(3)=13$, $f(-2)=8$.
+- **Dominio:** $g(x)=\frac{1}{x+3}$ excluye $x=-3$.
+- **Recta:** Por (1,3) con pendiente 4: $y-3=4(x-1)$, entonces $y=4x-1$.
+
+## Ejercicios resueltos adicionales
+
+- **Dominio contextual.** La función $C(x)=2500x+12000$ modela el costo de imprimir $x$ folletos. ¿Cuál es el dominio razonable?
+
+  **Solución explicada.** Aunque algebraicamente acepta reales, en contexto $x$ debe ser entero y $x\ge 0$.
+
+- **Pendiente como cambio.** Una cuenta de agua cuesta $18000$ pesos fijos más $2200$ por metro cúbico. ¿Qué representa la pendiente?
+
+  **Solución explicada.** En $C(x)=18000+2200x$, la pendiente $2200$ representa el costo adicional por cada metro cúbico consumido.
+
+## Problemas resueltos con contexto
+
+- **Taxi urbano.** Un taxi cobra $6000$ pesos de arranque y $1200$ por kilómetro. Escribe la función de costo y calcula $C(8)$.
+
+  **Solución.** La función es $C(x)=6000+1200x$. Para $8$ km, $C(8)=6000+1200(8)=15600$ pesos.
+
+- **Temperatura lineal.** Una bebida está a $80^\circ$C y baja $5^\circ$C por minuto. Modela la temperatura después de $t$ minutos.
+
+  **Solución.** La función es $T(t)=80-5t$. Por ejemplo, a los $6$ minutos: $T(6)=50^\circ$C.
+
+## Problemas propuestos con contexto
+
+- Un plan de datos cobra $30000$ pesos fijos más $4000$ por GB adicional. Escribe $C(x)$ y calcula $C(5)$.
+- Una vela mide $20$ cm y se consume $1.5$ cm por hora. Modela su altura con una función lineal.
+- Dos planes cuestan $50000+3000x$ y $80000$. Encuentra el consumo $x$ donde cuestan igual.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Evalúa $f(x)=x^2+4$ en 3,-2,0,1,2.
+
+- Halla dominio de $f(x)=\sqrt{x^2+2x-15}$.
+
+- Halla dominio de $f(x)=\frac{5x}{x^2-3x-4}$.
+
+- Decide si una circunferencia completa es función de x.
+
+- Grafica $2x-y=3$.
+
+- Halla la recta por (4,3) y (-2,5).
+
+- Halla una recta perpendicular a la que pasa por (-3,-1) y (2,-3).
+
+- Modela depreciación lineal de 20000 en 25 años.
+
+- Compara dos planes de internet: $50000+5000x$ y 80000.
+
+- Interpreta el punto donde dos rectas se cruzan en un contexto real.
+
+## Más problemas propuestos
+
+- Teórico: usa la prueba de la recta vertical para explicar por qué una circunferencia no es función de $x$.
+
+- Contexto: modela el costo de una fotocopiadora que cobra $100$ pesos por copia más $3000$ de servicio.
+
+- Teórico: encuentra la pendiente de la recta que pasa por $(-2,5)$ y $(4,-1)$.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Concepto de función | 2.1 | 148 | Ejercicios impares 1-45 |
+| Gráficas de funciones | 2.2 | 158 | Ejercicios impares 1-47 |
+| Información desde la gráfica | 2.3 | 168 | Ejercicios impares 1-37 |
+| Rectas | 1.10 | 114 | Ejercicios impares 1-59 |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

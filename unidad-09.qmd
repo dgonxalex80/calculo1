@@ -1,0 +1,160 @@
+---
+title: "Unidad 9: Composición de funciones y función inversa"
+description: "Semana 9, actividad 9 y libro cap. 2"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 9, actividad 9 y libro cap. 2. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Combinar funciones mediante suma, producto y cociente.
+- Calcular composiciones $f(g(x))$ y $g(f(x))$.
+- Reconocer funciones uno a uno.
+- Encontrar e interpretar inversas.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Evaluación de funciones.
+- Despeje algebraico.
+- Gráficas y recta $y=x$.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Las funciones pueden combinarse como números: f+g, f-g, fg y f/g, cuidando dominios.
+
+La composición $f(g(x))$ significa aplicar primero g y luego f. En modelos, conecta etapas de un proceso.
+
+Una función inversa deshace la acción de una función uno a uno. Si $f(a)=b$, entonces $f^{-1}(b)=a$.
+
+Las gráficas de f y $f^{-1}$ son reflejos respecto a la recta $y=x$.
+
+## Ampliación conceptual basada en el libro
+
+La combinación de funciones permite construir modelos por etapas. Esto aparece con frecuencia en sensores, descuentos, impuestos y conversiones.
+
+La composición no suele ser conmutativa: en general $f(g(x))\ne g(f(x))$.
+
+Una inversa intercambia entrada y salida; por eso sus unidades también se invierten en el contexto.
+
+## Fórmulas y criterios clave
+
+- $(f\circ g)(x)=f(g(x))$
+
+- $f(f^{-1}(x))=x$
+
+- $f^{-1}(f(x))=x$
+- Para hallar inversa: $y=f(x)$, despejar $x$, intercambiar $x$ y $y$.
+
+## Ejemplos guiados
+
+- **Composición:** $f(x)=2x+3$, $g(x)=x^2+1$: $f(g(x))=2x^2+5$.
+
+- **Inversa lineal:** $h(x)=3x-1\Rightarrow y=3x-1\Rightarrow x=\frac{y+1}{3}\Rightarrow h^{-1}(x)=\frac{x+1}{3}$.
+
+- **Racional:** $f(x)=\frac{2x+3}{x-1}\Rightarrow f^{-1}(x)=\frac{x+3}{x-2}$.
+
+## Ejercicios resueltos adicionales
+
+- **Orden de descuentos.** Un producto recibe primero descuento de $20\%$ y luego se suma envío de $12000$. Define $d(x)=0.8x$ y $e(x)=x+12000$. Compara $e(d(x))$ y $d(e(x))$.
+
+  **Solución explicada.** $e(d(x))=0.8x+12000$, mientras $d(e(x))=0.8(x+12000)=0.8x+9600$. El orden cambia el resultado.
+
+- **Inversa contextual.** Si $C(h)=40000+25000h$ modela un servicio por horas, halla $C^{-1}(y)$.
+
+  **Solución explicada.** $y=40000+25000h$, entonces $h=\frac{y-40000}{25000}$. La inversa da las horas contratadas a partir del costo total.
+
+## Problemas resueltos con contexto
+
+- **Temperatura y voltaje.** Un sensor convierte temperatura en voltaje con $V(T)=0.02T+1.2$ y el sistema convierte voltaje en señal con $S(V)=25V-10$. Halla $S(V(T))$.
+
+  **Solución.** Sustituimos: $S(V(T))=25(0.02T+1.2)-10=0.5T+20$.
+
+- **Descuento e impuesto.** Un producto cuesta $x$. Primero recibe $10\%$ de descuento: $d(x)=0.9x$. Luego se aplica IVA del $19\%$: $i(x)=1.19x$. Halla $i(d(x))$.
+
+  **Solución.** $i(d(x))=1.19(0.9x)=1.071x$. El precio final es el $107.1\%$ del precio inicial.
+
+## Problemas propuestos con contexto
+
+- Un salario base pasa por una bonificación $B(x)=x+150000$ y luego un descuento $D(x)=0.92x$. Halla $D(B(x))$.
+
+- Una tarifa por horas es $C(h)=50000+30000h$. Halla la inversa e interpreta qué devuelve.
+
+- Un termómetro convierte Celsius a Fahrenheit con $F(C)=1.8C+32$. Halla $F^{-1}(x)$ e interpreta.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Calcula f o g, g o f, f o f y g o g para $f(x)=x^2+3$, $g(x)=x-1$.
+
+- Repite con $f(x)=3x-1$ y $g(x)=x^3+1$.
+
+- Halla la inversa de $f(x)=3x-1$.
+
+- Halla la inversa de $f(x)=3x-2$.
+
+- Demuestra que dos funciones dadas son inversas por composición.
+
+- Modela S(V(T)) si V(T)=0.02T+1.2 y S(V)=25V-10.
+
+- Interpreta la inversa de una tarifa 500+80x.
+
+- Decide si $f(x)=-2(x-2)^2+4$ tiene inversa en todos los reales.
+
+- Usa la gráfica de una función y refleja puntos respecto a $y=x$.
+
+- Diseña un proceso de dos etapas y escríbelo como composición.
+
+## Más problemas propuestos
+
+- Teórico: calcula $f(g(x))$ y $g(f(x))$ para $f(x)=x+2$ y $g(x)=x^2$.
+
+- Contexto: combina una conversión de kilómetros a metros con una tarifa por metro recorrido.
+
+- Teórico: explica por qué una función que no es uno a uno no tiene inversa como función en todo su dominio.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Combinación de funciones | 2.6 | 196 | Ejercicios impares 1-49 |
+| Funciones uno a uno e inversas | 2.7 | 204 | Ejercicios impares 1-55 |
+| Repaso de funciones | Capítulo 2 Repaso | 207 | Ejercicios impares relacionados |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

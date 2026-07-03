@@ -1,0 +1,161 @@
+---
+title: "Unidad 14: Funciones logarítmicas y propiedades"
+description: "Actividad semana 14/15 y libro cap. 4"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Actividad semana 14/15 y libro cap. 4. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Interpretar logaritmos como exponentes.
+- Graficar funciones logarítmicas.
+- Usar leyes de logaritmos.
+- Determinar dominios de expresiones logarítmicas.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Exponenciales.
+- Inversa de funciones.
+- Dominio de funciones.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+$\log_a(x)=y$ significa $a^y=x$. Por eso el logaritmo es la inversa de la exponencial.
+
+El dominio de $\log_a(x)$ es $x>0$; su rango son todos los reales. La recta $x=0$ es asíntota vertical.
+
+Las leyes de logaritmos transforman productos, cocientes y potencias en sumas, restas y factores.
+
+Los logaritmos común y natural usan bases 10 y e, respectivamente.
+
+## Ampliación conceptual basada en el libro
+
+Los logaritmos responden preguntas del tipo: ¿a qué exponente debo elevar la base para obtener este número?
+
+Como son inversas de exponenciales, sus dominios y asíntotas se reflejan: $a^x$ tiene rango positivo y $\log_a x$ tiene dominio positivo.
+
+Las leyes de logaritmos convierten multiplicación en suma y potencias en productos, lo cual facilita despejes.
+
+## Fórmulas y criterios clave
+
+- $\log_a(MN)=\log_a(M)+\log_a(N)$
+
+- $\log_a\left(\frac MN\right)=\log_a(M)-\log_a(N)$
+
+- $\log_a(M^r)=r\log_a(M)$
+
+- $\ln(x)=\log_e(x)$
+
+## Ejemplos guiados
+
+- **Definición:** $\log_4(16)=2$ porque $4^2=16$.
+
+- **Combinar:** $\log_4(x+2)-\log_4(x-1)=\log_4\left(\frac{x+2}{x-1}\right)$.
+
+- **Dominio:** $\ln(x-1)+1$ exige $x-1>0$, entonces $x>1$.
+
+## Ejercicios resueltos adicionales
+
+- **Dominio logarítmico.** Halla el dominio de $f(x)=\log(x-4)$.
+
+  **Solución explicada.** Se exige $x-4>0$. Entonces $x>4$.
+
+- **Expandir.** Expande $\log(3x^2y)$.
+
+  **Solución explicada.** Usamos leyes: $\log(3x^2y)=\log 3+\log(x^2)+\log y=\log 3+2\log x+\log y$, con variables positivas.
+
+## Problemas resueltos con contexto
+
+- **Tiempo de duplicación.** Una inversión cumple $2=1.05^t$. ¿Cómo despejar $t$?
+
+  **Solución.** Aplicamos logaritmos: $\log(2)=t\log(1.05)$, entonces $t=\frac{\log(2)}{\log(1.05)}\approx 14.21$ periodos.
+
+- **Escala de sonido.** Si una intensidad es $1000$ veces otra, ¿cuál es $\log(1000)$?
+
+  **Solución.** Como $1000=10^3$, entonces $\log(1000)=3$.
+
+## Problemas propuestos con contexto
+
+- Resuelve $3=1.02^t$ usando logaritmos e interpreta el tiempo.
+
+- Expande $\log(5x^2)$ usando leyes de logaritmos.
+
+- Combina $\log x+\log(x-1)$ en un solo logaritmo e indica el dominio.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Evalúa $\log_4(16)$.
+
+- Usa $\log 5$, $\log 9$ y $\log 2$ para estimar $\log 75$.
+
+- Combina $\log x+\log 5-\log y$.
+
+- Expande $\log_3(xy)$.
+
+- Expande $\log_a\left(\frac{2b^4}{c}\right)$.
+
+- Halla dominio de $\log_2(x-1)$.
+
+- Grafica $y=\log_2(x)-1$.
+
+- Grafica $y=\ln(x-1)+1$.
+
+- Explica por qué $\log(-3)$ no es real.
+
+- Relaciona la gráfica de $a^x$ con $\log_a(x)$.
+
+## Más problemas propuestos
+
+- Teórico: escribe $\log_2(32)=5$ en forma exponencial.
+
+- Contexto: una escala de ruido usa $L=10\log\left(\frac{I}{I_0}\right)$. Explica qué ocurre si $I$ aumenta.
+
+- Teórico: combina $2\log x-\log(x+1)$ en un solo logaritmo.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Funciones logarítmicas | 4.3 | 322 | Ejercicios impares 1-57 |
+| Leyes de logaritmos | 4.4 | 328 | Ejercicios impares 1-63 |
+| Ecuaciones logarítmicas iniciales | 4.5 | 338 | Ejercicios impares del bloque inicial |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

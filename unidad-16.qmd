@@ -1,0 +1,163 @@
+---
+title: "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno"
+description: "Actividad semana 16 y libro caps. 5-7"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Actividad semana 16 y libro caps. 5-7. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Graficar seno y coseno transformados.
+- Determinar amplitud, periodo y desplazamiento.
+- Resolver triángulos oblicuángulos.
+- Aplicar ley del seno y ley del coseno en navegación, pendientes y distancias.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Razones trigonométricas.
+- Radianes.
+- Funciones y transformaciones.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Las funciones seno y coseno son periódicas. En $y=A\sin(B(x-C))+D$, la amplitud es $|A|$ y el periodo es $\frac{2\pi}{|B|}$.
+
+Los desplazamientos horizontal y vertical modifican fase y línea media.
+
+La ley del seno relaciona lados y senos de ángulos opuestos; la ley del coseno generaliza Pitágoras para triángulos no rectángulos.
+
+En problemas de rumbo, elevación y navegación, un dibujo claro evita elegir la ley incorrecta.
+
+## Ampliación conceptual basada en el libro
+
+Las gráficas de seno y coseno modelan fenómenos periódicos: ruedas, mareas, sonido, respiración y movimiento armónico.
+
+La amplitud mide distancia máxima a la línea media; el periodo mide cuánto tarda el patrón en repetirse.
+
+Las leyes de seno y coseno extienden la trigonometría a triángulos no rectángulos.
+
+## Fórmulas y criterios clave
+
+- Amplitud: $|A|$
+
+- Periodo: $\frac{2\pi}{|B|}$
+
+- $\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}$
+
+- $c^2=a^2+b^2-2ab\cos C$
+
+## Ejemplos guiados
+
+- **Coseno:** $f(x)=3\cos x$ tiene amplitud 3, periodo $2\pi$ y línea media $y=0$.
+
+- **Seno desplazado:** $f(x)=2\sin\left(x-\frac{\pi}{3}\right)$ desplaza $\pi/3$ a la derecha.
+
+- **Ley coseno:** Con lados 6 y 8 y ángulo incluido 60 grados: $c^2=36+64-96\cos 60^\circ=52$.
+
+## Ejercicios resueltos adicionales
+
+- **Periodo.** Para $f(x)=3\sin(2x)$, halla amplitud y periodo.
+
+  **Solución explicada.** La amplitud es $3$. El periodo es $\frac{2\pi}{2}=\pi$.
+
+- **Ley de senos.** En un triángulo, $A=40^\circ$, $B=65^\circ$ y $a=12$. Halla $b$.
+
+  **Solución explicada.** Por ley de senos: $\frac{a}{\sin A}=\frac{b}{\sin B}$. Entonces $b=\frac{12\sin 65^\circ}{\sin 40^\circ}\approx 16.92$.
+
+## Problemas resueltos con contexto
+
+- **Movimiento de una rueda.** La altura de un punto en una rueda se modela por $h(t)=2\sin(t)+3$. Halla amplitud y línea media.
+
+  **Solución.** La amplitud es $2$ y la línea media es $y=3$.
+
+- **Distancia entre dos puntos con ángulo.** Dos caminos de $6$ km y $8$ km forman un ángulo de $60^\circ$. ¿Qué distancia separa los extremos?
+
+  **Solución.** Por ley del coseno: $c^2=6^2+8^2-2(6)(8)\cos(60^\circ)=52$. Entonces $c=\sqrt{52}\approx 7.21$ km.
+
+## Problemas propuestos con contexto
+
+- Para $f(x)=4\cos(x)-1$, identifica amplitud y línea media.
+
+- Un triángulo tiene lados $5$ y $7$ con ángulo incluido $45^\circ$. Usa ley del coseno para hallar el tercer lado.
+
+- Un observador ve un globo con ángulo de elevación $38^\circ$ desde $120$ m de distancia horizontal. Estima su altura.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Grafica $f(x)=3\cos x$.
+
+- Grafica $f(x)=4-2\sin x$.
+
+- Halla amplitud y periodo de $3\cos\left(x+\frac{\pi}{3}\right)$.
+
+- Halla amplitud y periodo de $2\sin\left(x-\frac{\pi}{3}\right)$.
+
+- Resuelve un triángulo con dos ángulos y un lado usando ley del seno.
+
+- Resuelve un triángulo con dos lados y ángulo incluido usando ley del coseno.
+
+- Modela la ruta Q-R-P con rumbos N25E y S70W.
+
+- Calcula dirección de un bote que intercepta un banco de peces.
+
+- Halla altura de un poste en un camino inclinado.
+
+- Calcula el ángulo entre diagonales en una caja 8 x 6 x 4.
+
+## Más problemas propuestos
+
+- Teórico: identifica amplitud, periodo y línea media de $y=5\cos(3x)+2$.
+
+- Contexto: la altura de una boya se modela por $h(t)=1.5\sin\left(\frac{\pi}{6}t\right)+4$. Interpreta amplitud y línea media.
+
+- Teórico: decide cuándo usar ley de senos y cuándo usar ley de cosenos.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Gráficas trigonométricas | 5.3 | 396 | Ejercicios impares 1-65 |
+| Más gráficas trigonométricas | 5.4 | 404 | Ejercicios impares 1-49 |
+| Modelado de movimiento armónico | 5.6 | 420 | Ejercicios impares 1-29 |
+| Ley de Senos | 6.5 | 470 | Ejercicios impares 1-45 |
+| Ley de Cosenos | 6.6 | 480 | Ejercicios impares 1-39 |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

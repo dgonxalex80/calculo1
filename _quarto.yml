@@ -1,0 +1,66 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - books/**
+
+website:
+  title: "Matemáticas Fundamentales"
+  page-navigation: true
+  navbar:
+    background: light
+    search: true
+    left:
+      - href: index.qmd
+        text: Inicio
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - href: index.qmd
+        text: Inicio
+      - section: "Unidades"
+        contents:
+          - href: unidad-01.qmd
+            text: "Unidad 1"
+          - href: unidad-02.qmd
+            text: "Unidad 2"
+          - href: unidad-03.qmd
+            text: "Unidad 3"
+          - href: unidad-04.qmd
+            text: "Unidad 4"
+          - href: unidad-05.qmd
+            text: "Unidad 5"
+          - href: unidad-06.qmd
+            text: "Unidad 6"
+          - href: unidad-07.qmd
+            text: "Unidad 7"
+          - href: unidad-08.qmd
+            text: "Unidad 8"
+          - href: unidad-09.qmd
+            text: "Unidad 9"
+          - href: unidad-10.qmd
+            text: "Unidad 10"
+          - href: unidad-11.qmd
+            text: "Unidad 11"
+          - href: unidad-12.qmd
+            text: "Unidad 12"
+          - href: unidad-13.qmd
+            text: "Unidad 13"
+          - href: unidad-14.qmd
+            text: "Unidad 14"
+          - href: unidad-15.qmd
+            text: "Unidad 15"
+          - href: unidad-16.qmd
+            text: "Unidad 16"
+
+format:
+  html:
+    lang: es
+    theme: litera
+    css: minimal.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    smooth-scroll: true
+    anchor-sections: true

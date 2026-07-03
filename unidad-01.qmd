@@ -1,0 +1,173 @@
+---
+title: "Unidad 1: Números reales, operaciones, exponentes y radicales"
+description: "Semana 1, actividad 1 y libro cap. 1"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 1, actividad 1 y libro cap. 1. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Clasificar números en racionales e irracionales.
+- Representar números en la recta real.
+- Operar con fracciones, signos, potencias y raíces.
+- Simplificar expresiones numéricas antes de pasar al álgebra.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Lectura de números enteros y fracciones.
+- Suma, resta, multiplicación y división básicas.
+- Uso de paréntesis y jerarquía de operaciones.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Los números reales reúnen racionales e irracionales. Los racionales pueden escribirse como $a/b$ con b distinto de cero; los irracionales tienen decimal infinito no periódico, como $\sqrt{2}$ o $\pi$.
+
+La recta numérica permite comparar: a está a la izquierda de b si $a < b$. La distancia al origen se conecta después con valor absoluto.
+
+Las leyes de exponentes resumen productos repetidos:
+
+* $a^m a^n = a^{m+n}$
+
+* $\frac{a^m}{a^n}=a^{m-n}$
+
+* $(a^m)^n=a^{mn}$
+
+* $a^0=1$
+
+* $a^{-n}=\frac{1}{a^n}$
+
+Una raíz es una potencia fraccionaria: $\sqrt[n]{a^m}=a^{m/n}$, siempre cuidando el dominio cuando el índice es par.
+
+## Ampliación conceptual basada en el libro
+
+El libro insiste en distinguir entre **representar** un número y **operar** con él. Por ejemplo, $0.25$, $\frac14$ y $25\%$ expresan la misma cantidad en registros distintos.
+
+Cuando aparece una raíz, conviene preguntarse si se necesita una forma exacta o una aproximación decimal. En precálculo se prefiere conservar formas como $3\sqrt2$ cuando no se pide redondear.
+
+Las leyes de exponentes solo se aplican cuando la estructura lo permite: $a^m+a^n$ no se transforma en $a^{m+n}$ porque no hay producto.
+
+## Fórmulas y criterios clave
+
+- $\frac{a}{b}+\frac{c}{d}=\frac{ad+bc}{bd}$
+
+- $a^m a^n=a^{m+n}$
+
+- $(ab)^n=a^n b^n$
+
+- $\sqrt{ab}=\sqrt{a}\sqrt{b}$, con $a,b\ge 0$
+
+## Ejemplos guiados
+
+- **Clasificar:** $\frac{3}{8}$ es racional porque es cociente de enteros; $\sqrt{5}$ es irracional porque no se 
+
+expresa como fracción exacta.
+
+- **Exponentes:** $2^3\cdot 2^5=2^8=256$.
+
+- **Radicales:** $\sqrt{72}=\sqrt{36\cdot 2}=6\sqrt{2}$.
+
+## Ejercicios resueltos adicionales
+
+- **Notación científica.** La distancia aproximada de la Tierra al Sol es $1.5\times 10^8$ km. Si la luz viaja a $3.0\times 10^5$ km/s, estima el tiempo de viaje de la luz.
+
+  **Solución explicada.** Se divide distancia entre velocidad: $t=\frac{1.5\times 10^8}{3.0\times 10^5}=0.5\times 10^3=500$ s. Esto equivale a unos $8.3$ minutos.
+
+- **Error común con exponentes.** Decide si $2^3+2^4=2^7$.
+
+  **Solución explicada.** Calculamos: $2^3+2^4=8+16=24$, mientras que $2^7=128$. No son iguales. La regla $a^m a^n=a^{m+n}$ aplica a productos, no a sumas.
+
+## Problemas resueltos con contexto
+
+- **Compra por porciones.** Una familia compra $\frac{3}{4}$ kg de queso y luego usa $\frac{1}{6}$ kg para preparar arepas. ¿Cuánto queso queda?
+
+  **Solución.** Se resta la parte usada: $\frac{3}{4}-\frac{1}{6}=\frac{9}{12}-\frac{2}{12}=\frac{7}{12}$. Quedan $\frac{7}{12}$ kg.
+
+- **Aproximar una medida.** Una mesa tiene diagonal $\sqrt{2}$ m. ¿Entre qué enteros está esa longitud?
+
+  **Solución.** Como $1^2=1$ y $2^2=4$, entonces $1<\sqrt{2}<2$. La diagonal mide un poco más de $1$ m y menos de $2$ m.
+
+## Problemas propuestos con contexto
+
+- Un tanque contiene $\frac{5}{6}$ de su capacidad y se consumen $\frac{1}{4}$. ¿Qué fracción queda?
+
+- Un celular pierde $2^3$ puntos de batería por hora durante $2$ horas. ¿Cuántos puntos pierde en total?
+
+- Una baldosa cuadrada tiene área $50\text{ cm}^2$. Expresa la longitud de su lado en forma simplificada.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Clasifica: -7, 0.25, $\sqrt{9}$, $\sqrt{11}$, $\pi$, 0.333...
+
+- Ordena de menor a mayor: $-\frac{3}{2}$, -1.4, $\sqrt{2}$, 0, $\frac{5}{3}$.
+
+- Calcula $\frac{2}{3}+\frac{5}{6}-\frac{1}{4}$.
+
+- Simplifica $(-2)^4-3^2$.
+
+- Simplifica $\frac{x^3x^5}{x^2}$.
+
+- Escribe con exponentes positivos: $5a^{-2}b^3$.
+
+- Simplifica $\sqrt{98}$.
+
+- Racionaliza $\frac{4}{\sqrt{3}}$.
+
+- Resuelve una operación combinada con fracciones creada por ti y verifica con calculadora.
+
+- Explica por qué dividir entre cero no está definido.
+
+## Más problemas propuestos
+
+- Teórico: explica por qué $\sqrt{49}$ es racional pero $\sqrt{50}$ es irracional.
+
+- Contexto: un archivo pesa $2.4\times 10^3$ MB. Exprésalo en GB si $1\text{ GB}=10^3\text{ MB}$.
+
+- Teórico: da un ejemplo donde $a^{-n}=\frac{1}{a^n}$ y otro donde la base $a=0$ no se permite.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Números reales y operaciones | 1.1 | 10 | Ejercicios impares 1-39 |
+| Exponentes y radicales | 1.2 | 20 | Ejercicios impares 1-45 |
+| Repaso acumulado | Capítulo 1 Repaso | 124 | Ejercicios impares del bloque inicial |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

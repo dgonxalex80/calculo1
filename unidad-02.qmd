@@ -1,0 +1,162 @@
+---
+title: "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones"
+description: "Semana 2, actividad 2 y libro cap. 1"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 2, actividad 2 y libro cap. 1. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Resolver ecuaciones lineales y cuadráticas sencillas.
+- Expresar soluciones de desigualdades en intervalos.
+- Resolver desigualdades con valor absoluto.
+- Modelar problemas con razones, proporciones y ecuaciones.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Operaciones con números reales.
+- Propiedades de igualdad.
+- Lectura de intervalos en la recta real.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Una ecuación afirma que dos expresiones son iguales. Resolverla significa hallar los valores que hacen verdadera esa igualdad.
+
+Una desigualdad suele tener infinitas soluciones. Si se multiplica o divide por un número negativo, el sentido de la desigualdad cambia.
+
+El valor absoluto $|a|$ representa distancia al cero. Por eso $|x-3|<2$ significa que x está a menos de 2 unidades de 3.
+
+Una proporción es igualdad de razones: $\frac{a}{b}=\frac{c}{d}$. Su propiedad central es $ad=bc$.
+
+## Ampliación conceptual basada en el libro
+
+El libro presenta ecuaciones como herramientas para traducir relaciones verbales. El paso más importante no es despejar, sino definir con claridad la variable.
+
+En desigualdades, la solución suele ser un intervalo. Por eso es útil verificar un número dentro y otro fuera del intervalo obtenido.
+
+Las ecuaciones con valor absoluto se interpretan como distancias: $|x-a|=r$ representa puntos ubicados a distancia $r$ de $a$.
+
+## Fórmulas y criterios clave
+
+- $A=B \Longleftrightarrow A+C=B+C$
+
+- $A<B$ y $C<0 \Longrightarrow AC>BC$
+
+- $|x-a|<r \Longrightarrow a-r<x<a+r$
+
+- $\frac{a}{b}=\frac{c}{d}\Longrightarrow ad=bc$
+
+## Ejemplos guiados
+
+- **Ecuación:** $3(x+3)=x+5 \Rightarrow 3x+9=x+5 \Rightarrow 2x=-4 \Rightarrow x=-2$.
+
+- **Desigualdad:** $8x+4<16+5x \Rightarrow 3x<12 \Rightarrow x<4$.
+
+- **Proporción:** $\frac{x}{63}=\frac{5}{9}\Rightarrow 9x=315\Rightarrow x=35$.
+
+## Ejercicios resueltos adicionales
+
+- **Control de temperatura.** Un laboratorio exige que la temperatura $T$ esté a menos de $2^\circ$C de $20^\circ$C. Escribe y resuelve la desigualdad.
+
+  **Solución explicada.** La condición es $|T-20|<2$. Entonces $18<T<22$. La temperatura debe estar entre $18^\circ$C y $22^\circ$C.
+
+- **Comparar planes.** Un servicio A cobra $30000+2000x$ y otro B cobra $45000$. ¿Desde cuántas unidades $x$ conviene B?
+
+  **Solución explicada.** Conviene B cuando $45000<30000+2000x$. Entonces $15000<2000x$ y $x>7.5$. Desde $8$ unidades conviene B.
+
+## Problemas resueltos con contexto
+
+- **Plan de transporte.** Un viaje cobra una tarifa fija de $20000$ pesos más $2500$ por hora de espera. Si se pagaron $42500$ pesos, ¿cuántas horas de espera hubo?
+
+  **Solución.** Planteamos $20000+2500h=42500$. Entonces $2500h=22500$ y $h=9$. Hubo $9$ horas de espera.
+
+- **Presupuesto de cuadernos.** Cada cuaderno cuesta $5500$ pesos producirlo. Si el presupuesto máximo es $280000$, ¿cuántos cuadernos se pueden producir?
+
+  **Solución.** Se resuelve $5500x\le 280000$. Entonces $x\le 50.9$. Como no se producen fracciones de cuaderno, máximo $50$ cuadernos.
+
+## Problemas propuestos con contexto
+
+- Un gimnasio cobra $45000$ de inscripción y $30000$ por mes. Si una persona tiene $225000$, ¿por cuántos meses puede pagar?
+
+- Una receta requiere que la razón entre arroz y agua sea $1:2$. Si se usan $3.5$ tazas de arroz, ¿cuánta agua se necesita?
+
+- Una temperatura debe mantenerse entre $18^\circ$C y $24^\circ$C. Escribe una desigualdad para la temperatura $T$.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Resuelve $5x-1=3x+7$.
+
+- Resuelve $\frac{2x-1}{5}=\frac{3x+2}{6}$.
+
+- Resuelve $\frac{1}{2}-3x\le 5$.
+
+- Resuelve $3x-7\le 6x+8$.
+
+- Resuelve $x^2<5x-6$.
+
+- Resuelve $|2x+1|\ge 3$.
+
+- Resuelve $\frac{|x-1|}{3}\le 2$.
+
+- Un transporte cobra 20000 fijo más 2500 por hora. Si se pagó 42500, halla las horas.
+
+- Un paquete de 2 kg cuesta 28000 y uno de 5 kg cuesta 46000. Modela el costo lineal.
+
+- Crea una proporción aplicada a escalas de un plano y resuélvela.
+
+## Más problemas propuestos
+
+- Teórico: resuelve $|x+4|=9$ e interpreta las dos soluciones como distancias.
+
+- Contexto: un presupuesto permite gastar como máximo $180000$ pesos. Si cada entrada cuesta $22000$, plantea una desigualdad para el número de entradas.
+
+- Teórico: explica por qué al multiplicar una desigualdad por $-3$ cambia el sentido del signo.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Ecuaciones | 1.5 | 54 | Ejercicios impares 1-55 |
+| Modelado con ecuaciones | 1.6 | 66 | Ejercicios impares 1-35 |
+| Desigualdades y valor absoluto | 1.7 | 80 | Ejercicios impares 1-47 |
+| Variación y proporciones | 1.11 | 120 | Ejercicios impares 1-31 |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

@@ -1,0 +1,161 @@
+---
+title: "Unidad 3: Expresiones algebraicas, polinomios y productos notables"
+description: "Semana 3, actividad 3 y libro cap. 1"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Semana 3, actividad 3 y libro cap. 1. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Distinguir términos, coeficientes y grado.
+- Sumar, restar y multiplicar polinomios.
+- Usar productos notables con seguridad.
+- Traducir frases sencillas a lenguaje algebraico.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Leyes de exponentes.
+- Propiedad distributiva.
+- Reducción de términos semejantes.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Una expresión algebraica combina números, letras y operaciones. Un polinomio es una suma de términos $a_kx^k$ con exponentes enteros no negativos.
+
+Solo se reducen términos semejantes: tienen la misma parte literal con los mismos exponentes.
+
+La multiplicación de polinomios aplica la distributiva a todos los términos.
+
+Los productos notables ahorran trabajo, pero deben entenderse como patrones que salen de multiplicar.
+
+## Ampliación conceptual basada en el libro
+
+El libro trata las expresiones algebraicas como un lenguaje para generalizar patrones. Un polinomio puede representar áreas, costos, recorridos o cantidades acumuladas.
+
+Reducir términos semejantes significa combinar cantidades de la misma naturaleza algebraica. No se suma $x$ con $x^2$ porque representan potencias distintas.
+
+Los productos notables son atajos, pero siempre pueden comprobarse con la propiedad distributiva.
+
+## Fórmulas y criterios clave
+
+- $(a+b)^2=a^2+2ab+b^2$
+
+- $(a-b)^2=a^2-2ab+b^2$
+
+- $(a+b)(a-b)=a^2-b^2$
+
+- $(a+b)^3=a^3+3a^2b+3ab^2+b^3$
+
+## Ejemplos guiados
+
+- **Reducir:** $3x^2-5x+7+4x^2+x-2=7x^2-4x+5$.
+
+- **Producto:** $(2x-3)(x+5)=2x^2+10x-3x-15=2x^2+7x-15$.
+
+- **Notable:** $(x-4)^2=x^2-8x+16$.
+
+## Ejercicios resueltos adicionales
+
+- **Material para una cerca.** Un terreno rectangular tiene largo $3x+2$ y ancho $x-1$. Halla el perímetro simplificado.
+
+  **Solución explicada.** El perímetro es $P=2(3x+2)+2(x-1)=6x+4+2x-2=8x+2$.
+
+- **Área sombreada.** Un cuadrado de lado $x+5$ contiene un cuadrado interior de lado $x$. Expresa el área restante.
+
+  **Solución explicada.** El área restante es $(x+5)^2-x^2=x^2+10x+25-x^2=10x+25$.
+
+## Problemas resueltos con contexto
+
+- **Área de una huerta.** Una huerta rectangular mide $(x+4)$ metros de largo y $(x+2)$ metros de ancho. Escribe el área como polinomio.
+
+  **Solución.** El área es $A=(x+4)(x+2)=x^2+6x+8$.
+
+- **Costo de camisetas.** Una camiseta cuesta $x$ pesos y el estampado cuesta $3500$ pesos. Si se compran $12$ camisetas estampadas, expresa el costo total.
+
+  **Solución.** Cada camiseta estampada cuesta $x+3500$. El total es $12(x+3500)=12x+42000$.
+
+## Problemas propuestos con contexto
+
+- Un jardín cuadrado aumenta su lado de $x$ a $x+3$. Expande el área nueva.
+
+- Una empresa vende paquetes con $p$ lápices y agrega $5$ de obsequio. Si entrega $8$ paquetes, escribe el total de lápices.
+
+- El perímetro de una cancha rectangular tiene lados $2x+1$ y $x+4$. Escribe y simplifica el perímetro.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Reduce $5x^2-2x+1-3x^2+9x-4$.
+
+- Multiplica $4x(2x^2-3x+7)$.
+
+- Multiplica $(x+2)(x^2-3x+5)$.
+
+- Desarrolla $(3x-1)^2$.
+
+- Desarrolla $(2a+b)^3$.
+
+- Calcula $(y+6)(y-6)$.
+
+- Traduce: el triple de un número disminuido en su cuarta parte.
+
+- Escribe el perímetro de un rectángulo de lados x+3 y 2x-1.
+
+- Construye un polinomio de grado 4 con coeficiente principal negativo.
+
+- Explica por qué $x^2+x$ no se reduce a $x^3$.
+
+## Más problemas propuestos
+
+- Teórico: desarrolla $(x+7)^2$ y verifica multiplicando $(x+7)(x+7)$.
+
+- Contexto: una caja tiene base rectangular de lados $x+2$ y $x+6$. Escribe el área de la base.
+
+- Teórico: construye dos polinomios de grado $3$ y calcula su suma.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Expresiones algebraicas | 1.3 | 32 | Ejercicios impares 1-57 |
+| Expresiones racionales básicas | 1.4 | 40 | Ejercicios impares 1-37 |
+| Repaso acumulado | Capítulo 1 Repaso | 124 | Ejercicios impares relacionados con álgebra |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.

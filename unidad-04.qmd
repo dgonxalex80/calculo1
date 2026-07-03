@@ -1,0 +1,161 @@
+---
+title: "Unidad 4: Factorización, simplificación y racionalización"
+description: "Actividad semana 4 y libro cap. 1"
+---
+
+::: {.callout-note title="Propósito de la unidad"}
+Esta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.
+:::
+
+## Material base
+
+Actividad semana 4 y libro cap. 1. El contenido se apoya en las diapositivas, actividades entregadas y el libro **Precálculo: Matemáticas para el cálculo** disponible en la carpeta `books`.
+
+## Objetivos de aprendizaje
+
+- Factorizar por factor común, agrupación y productos notables.
+- Simplificar expresiones racionales algebraicas.
+- Racionalizar denominadores o numeradores con radicales.
+- Verificar equivalencias algebraicas.
+
+## Conceptos previos necesarios
+
+Antes de iniciar, verifica que puedes manejar estos puntos:
+
+- Productos notables.
+- Multiplicación de polinomios.
+- Fracciones y radicales.
+
+::: {.callout-tip title="Si necesitas repasar"}
+Si alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.
+:::
+
+## Teoría esencial
+
+Factorizar es escribir una expresión como producto. Conviene buscar primero factor común y luego identificar el número de términos.
+
+Dos términos pueden ser diferencia de cuadrados o suma/diferencia de cubos. Tres términos pueden ser trinomios cuadrados perfectos o trinomios factorizables.
+
+Una fracción algebraica solo se simplifica cancelando factores, no términos sueltos.
+
+Para racionalizar con binomios radicales se multiplica por el conjugado.
+
+## Ampliación conceptual basada en el libro
+
+En el libro, factorizar aparece como una operación inversa a expandir. Sirve para resolver ecuaciones, simplificar fracciones algebraicas y reconocer estructuras.
+
+Antes de aplicar técnicas especiales, se busca factor común. Esta decisión simplifica casi todos los métodos posteriores.
+
+Al simplificar fracciones racionales, solo se cancelan factores completos. Cancelar términos sueltos cambia la expresión.
+
+## Fórmulas y criterios clave
+
+- $a^2-b^2=(a-b)(a+b)$
+
+- $a^3-b^3=(a-b)(a^2+ab+b^2)$
+
+- $a^3+b^3=(a+b)(a^2-ab+b^2)$
+
+- $\frac{1}{\sqrt a+\sqrt b}\cdot\frac{\sqrt a-\sqrt b}{\sqrt a-\sqrt b}$
+
+## Ejemplos guiados
+
+- **Diferencia de cubos:** $x^3-8=(x-2)(x^2+2x+4)$.
+
+- **Trinomio:** $6x^2-11x-35=(2x+5)(3x-7)$.
+
+- **Racionalizar:** $\frac{4}{\sqrt5+2}=\frac{4(\sqrt5-2)}{5-4}=4\sqrt5-8$.
+
+## Ejercicios resueltos adicionales
+
+- **Cancelar correctamente.** Simplifica $\frac{x^2+5x}{x}$ e indica la restricción.
+
+  **Solución explicada.** Factorizamos el numerador: $\frac{x(x+5)}{x}=x+5$, con $x\ne 0$.
+
+- **Diseño de un empaque.** El área de una cara rectangular es $2x^2+7x+3$. Factoriza para encontrar posibles dimensiones.
+
+  **Solución explicada.** Buscamos factores: $2x^2+7x+3=(2x+1)(x+3)$. Las dimensiones pueden ser $2x+1$ y $x+3$.
+
+## Problemas resueltos con contexto
+
+- **Dimensiones de una terraza.** El área de una terraza es $x^2+7x+12$. Si se quiere expresar como producto de largo por ancho, factoriza.
+
+  **Solución.** Buscamos dos números que sumen $7$ y multipliquen $12$: $3$ y $4$. Entonces $x^2+7x+12=(x+3)(x+4)$.
+
+- **Simplificar una tasa.** La expresión $\frac{x^2-9}{x-3}$ modela una razón de cambio para $x\ne 3$. Simplifica.
+
+  **Solución.** Factorizamos $x^2-9=(x-3)(x+3)$. Entonces $\frac{x^2-9}{x-3}=x+3$, con $x\ne 3$.
+
+## Problemas propuestos con contexto
+
+- El área de una pantalla está dada por $x^2+5x+6$. Factoriza para interpretar sus posibles dimensiones.
+
+- Simplifica $\frac{x^2-16}{x-4}$ e indica qué valor de $x$ no se permite.
+
+- Racionaliza $\frac{10}{\sqrt{5}}$ en el contexto de una medida que debe escribirse sin radical en el denominador.
+
+## Guía previa para resolver los ejercicios
+
+Antes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.
+
+Cuando el ejercicio pida graficar, procede así:
+
+- Identifica la función base y sus rasgos principales.
+
+- Determina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.
+
+- Construye una tabla breve con puntos fáciles de calcular.
+
+- Ubica primero los puntos y rasgos clave; después une con la forma esperada de la función.
+
+- Revisa que la gráfica respete el dominio y el comportamiento final.
+
+## Ejercicios propuestos
+
+- Factoriza $x^2-3x+5x-15$.
+
+- Factoriza $81a^2-144$.
+
+- Factoriza $24x^2-6xy+16yx-4y^2$.
+
+- Factoriza $y^8-5y^4+4$.
+
+- Simplifica $\frac{m^2-m-6}{m^2-9}$.
+
+- Simplifica $\frac{x^2+x-2}{x^2+4x+3}$.
+
+- Comprueba si $2x-5^2=4x^2-25$ es verdadero o falso.
+
+- Racionaliza $\frac{4}{\sqrt5+2}$.
+
+- Racionaliza el numerador de $\frac{\sqrt{4+h}-2}{h}$.
+
+- Diseña una figura rectangular y expresa área y perímetro como polinomios factorizados.
+
+## Más problemas propuestos
+
+- Teórico: factoriza completamente $x^3-4x$.
+
+- Contexto: una ventana tiene área $x^2-9$. Interpreta sus dimensiones factorizadas.
+
+- Teórico: explica por qué $\frac{x+2}{x}$ no se simplifica a $2$.
+
+## Ejercicios sugeridos del libro de referencia
+
+Del libro **Precálculo: Matemáticas para el cálculo** de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.
+
+| Tema | Sección del libro | Página de ejercicios | Sugerencia |
+|---|---:|---:|---|
+| Exponentes, radicales y racionalización | 1.2 | 20 | Ejercicios impares 47-89 |
+| Factorización y productos notables | 1.3 | 32 | Ejercicios impares 59-101 |
+| Simplificación racional | 1.4 | 40 | Ejercicios impares 1-49 |
+
+## Actividades sugeridas
+
+- **Antes de clase:** lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.
+
+- **Durante la clase:** trabaja los ejemplos guiados y compara el procedimiento con un compañero.
+
+- **Después de clase:** completa los ejercicios restantes y escribe una duda concreta por cada error repetido.
+
+- **Cierre:** crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.
