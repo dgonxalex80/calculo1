@@ -1,0 +1,3104 @@
+[
+  {
+    "objectID": "unidad-16.html",
+    "href": "unidad-16.html",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#material-base",
+    "href": "unidad-16.html#material-base",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Material base",
+    "text": "Material base\nActividad semana 16 y libro caps. 5-7. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#objetivos-de-aprendizaje",
+    "href": "unidad-16.html#objetivos-de-aprendizaje",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nGraficar seno y coseno transformados.\nDeterminar amplitud, periodo y desplazamiento.\nResolver triángulos oblicuángulos.\nAplicar ley del seno y ley del coseno en navegación, pendientes y distancias.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#conceptos-previos-necesarios",
+    "href": "unidad-16.html#conceptos-previos-necesarios",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nRazones trigonométricas.\nRadianes.\nFunciones y transformaciones.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#teoría-esencial",
+    "href": "unidad-16.html#teoría-esencial",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nLas funciones seno y coseno son periódicas. En \\(y=A\\sin(B(x-C))+D\\), la amplitud es \\(|A|\\) y el periodo es \\(\\frac{2\\pi}{|B|}\\).\nLos desplazamientos horizontal y vertical modifican fase y línea media.\nLa ley del seno relaciona lados y senos de ángulos opuestos; la ley del coseno generaliza Pitágoras para triángulos no rectángulos.\nEn problemas de rumbo, elevación y navegación, un dibujo claro evita elegir la ley incorrecta.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-16.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nLas gráficas de seno y coseno modelan fenómenos periódicos: ruedas, mareas, sonido, respiración y movimiento armónico.\nLa amplitud mide distancia máxima a la línea media; el periodo mide cuánto tarda el patrón en repetirse.\nLas leyes de seno y coseno extienden la trigonometría a triángulos no rectángulos.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#fórmulas-y-criterios-clave",
+    "href": "unidad-16.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\nAmplitud: \\(|A|\\)\nPeriodo: \\(\\frac{2\\pi}{|B|}\\)\n\\(\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}\\)\n\\(c^2=a^2+b^2-2ab\\cos C\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#ejemplos-guiados",
+    "href": "unidad-16.html#ejemplos-guiados",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nCoseno: \\(f(x)=3\\cos x\\) tiene amplitud 3, periodo \\(2\\pi\\) y línea media \\(y=0\\).\nSeno desplazado: \\(f(x)=2\\sin\\left(x-\\frac{\\pi}{3}\\right)\\) desplaza \\(\\pi/3\\) a la derecha.\nLey coseno: Con lados 6 y 8 y ángulo incluido 60 grados: \\(c^2=36+64-96\\cos 60^\\circ=52\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-16.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nPeriodo. Para \\(f(x)=3\\sin(2x)\\), halla amplitud y periodo.\nSolución explicada. La amplitud es \\(3\\). El periodo es \\(\\frac{2\\pi}{2}=\\pi\\).\nLey de senos. En un triángulo, \\(A=40^\\circ\\), \\(B=65^\\circ\\) y \\(a=12\\). Halla \\(b\\).\nSolución explicada. Por ley de senos: \\(\\frac{a}{\\sin A}=\\frac{b}{\\sin B}\\). Entonces \\(b=\\frac{12\\sin 65^\\circ}{\\sin 40^\\circ}\\approx 16.92\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#problemas-resueltos-con-contexto",
+    "href": "unidad-16.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nMovimiento de una rueda. La altura de un punto en una rueda se modela por \\(h(t)=2\\sin(t)+3\\). Halla amplitud y línea media.\nSolución. La amplitud es \\(2\\) y la línea media es \\(y=3\\).\nDistancia entre dos puntos con ángulo. Dos caminos de \\(6\\) km y \\(8\\) km forman un ángulo de \\(60^\\circ\\). ¿Qué distancia separa los extremos?\nSolución. Por ley del coseno: \\(c^2=6^2+8^2-2(6)(8)\\cos(60^\\circ)=52\\). Entonces \\(c=\\sqrt{52}\\approx 7.21\\) km.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#problemas-propuestos-con-contexto",
+    "href": "unidad-16.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nPara \\(f(x)=4\\cos(x)-1\\), identifica amplitud y línea media.\nUn triángulo tiene lados \\(5\\) y \\(7\\) con ángulo incluido \\(45^\\circ\\). Usa ley del coseno para hallar el tercer lado.\nUn observador ve un globo con ángulo de elevación \\(38^\\circ\\) desde \\(120\\) m de distancia horizontal. Estima su altura.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-16.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#ejercicios-propuestos",
+    "href": "unidad-16.html#ejercicios-propuestos",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nGrafica \\(f(x)=3\\cos x\\).\nGrafica \\(f(x)=4-2\\sin x\\).\nHalla amplitud y periodo de \\(3\\cos\\left(x+\\frac{\\pi}{3}\\right)\\).\nHalla amplitud y periodo de \\(2\\sin\\left(x-\\frac{\\pi}{3}\\right)\\).\nResuelve un triángulo con dos ángulos y un lado usando ley del seno.\nResuelve un triángulo con dos lados y ángulo incluido usando ley del coseno.\nModela la ruta Q-R-P con rumbos N25E y S70W.\nCalcula dirección de un bote que intercepta un banco de peces.\nHalla altura de un poste en un camino inclinado.\nCalcula el ángulo entre diagonales en una caja 8 x 6 x 4.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#más-problemas-propuestos",
+    "href": "unidad-16.html#más-problemas-propuestos",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: identifica amplitud, periodo y línea media de \\(y=5\\cos(3x)+2\\).\nContexto: la altura de una boya se modela por \\(h(t)=1.5\\sin\\left(\\frac{\\pi}{6}t\\right)+4\\). Interpreta amplitud y línea media.\nTeórico: decide cuándo usar ley de senos y cuándo usar ley de cosenos.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-16.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nGráficas trigonométricas\n5.3\n396\nEjercicios impares 1-65\n\n\nMás gráficas trigonométricas\n5.4\n404\nEjercicios impares 1-49\n\n\nModelado de movimiento armónico\n5.6\n420\nEjercicios impares 1-29\n\n\nLey de Senos\n6.5\n470\nEjercicios impares 1-45\n\n\nLey de Cosenos\n6.6\n480\nEjercicios impares 1-39",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-16.html#actividades-sugeridas",
+    "href": "unidad-16.html#actividades-sugeridas",
+    "title": "Unidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 16"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html",
+    "href": "unidad-14.html",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#material-base",
+    "href": "unidad-14.html#material-base",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Material base",
+    "text": "Material base\nActividad semana 14/15 y libro cap. 4. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#objetivos-de-aprendizaje",
+    "href": "unidad-14.html#objetivos-de-aprendizaje",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nInterpretar logaritmos como exponentes.\nGraficar funciones logarítmicas.\nUsar leyes de logaritmos.\nDeterminar dominios de expresiones logarítmicas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#conceptos-previos-necesarios",
+    "href": "unidad-14.html#conceptos-previos-necesarios",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nExponenciales.\nInversa de funciones.\nDominio de funciones.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#teoría-esencial",
+    "href": "unidad-14.html#teoría-esencial",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\n\\(\\log_a(x)=y\\) significa \\(a^y=x\\). Por eso el logaritmo es la inversa de la exponencial.\nEl dominio de \\(\\log_a(x)\\) es \\(x&gt;0\\); su rango son todos los reales. La recta \\(x=0\\) es asíntota vertical.\nLas leyes de logaritmos transforman productos, cocientes y potencias en sumas, restas y factores.\nLos logaritmos común y natural usan bases 10 y e, respectivamente.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-14.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nLos logaritmos responden preguntas del tipo: ¿a qué exponente debo elevar la base para obtener este número?\nComo son inversas de exponenciales, sus dominios y asíntotas se reflejan: \\(a^x\\) tiene rango positivo y \\(\\log_a x\\) tiene dominio positivo.\nLas leyes de logaritmos convierten multiplicación en suma y potencias en productos, lo cual facilita despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#fórmulas-y-criterios-clave",
+    "href": "unidad-14.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(\\log_a(MN)=\\log_a(M)+\\log_a(N)\\)\n\\(\\log_a\\left(\\frac MN\\right)=\\log_a(M)-\\log_a(N)\\)\n\\(\\log_a(M^r)=r\\log_a(M)\\)\n\\(\\ln(x)=\\log_e(x)\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#ejemplos-guiados",
+    "href": "unidad-14.html#ejemplos-guiados",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nDefinición: \\(\\log_4(16)=2\\) porque \\(4^2=16\\).\nCombinar: \\(\\log_4(x+2)-\\log_4(x-1)=\\log_4\\left(\\frac{x+2}{x-1}\\right)\\).\nDominio: \\(\\ln(x-1)+1\\) exige \\(x-1&gt;0\\), entonces \\(x&gt;1\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-14.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nDominio logarítmico. Halla el dominio de \\(f(x)=\\log(x-4)\\).\nSolución explicada. Se exige \\(x-4&gt;0\\). Entonces \\(x&gt;4\\).\nExpandir. Expande \\(\\log(3x^2y)\\).\nSolución explicada. Usamos leyes: \\(\\log(3x^2y)=\\log 3+\\log(x^2)+\\log y=\\log 3+2\\log x+\\log y\\), con variables positivas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#problemas-resueltos-con-contexto",
+    "href": "unidad-14.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nTiempo de duplicación. Una inversión cumple \\(2=1.05^t\\). ¿Cómo despejar \\(t\\)?\nSolución. Aplicamos logaritmos: \\(\\log(2)=t\\log(1.05)\\), entonces \\(t=\\frac{\\log(2)}{\\log(1.05)}\\approx 14.21\\) periodos.\nEscala de sonido. Si una intensidad es \\(1000\\) veces otra, ¿cuál es \\(\\log(1000)\\)?\nSolución. Como \\(1000=10^3\\), entonces \\(\\log(1000)=3\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#problemas-propuestos-con-contexto",
+    "href": "unidad-14.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nResuelve \\(3=1.02^t\\) usando logaritmos e interpreta el tiempo.\nExpande \\(\\log(5x^2)\\) usando leyes de logaritmos.\nCombina \\(\\log x+\\log(x-1)\\) en un solo logaritmo e indica el dominio.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-14.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#ejercicios-propuestos",
+    "href": "unidad-14.html#ejercicios-propuestos",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nEvalúa \\(\\log_4(16)\\).\nUsa \\(\\log 5\\), \\(\\log 9\\) y \\(\\log 2\\) para estimar \\(\\log 75\\).\nCombina \\(\\log x+\\log 5-\\log y\\).\nExpande \\(\\log_3(xy)\\).\nExpande \\(\\log_a\\left(\\frac{2b^4}{c}\\right)\\).\nHalla dominio de \\(\\log_2(x-1)\\).\nGrafica \\(y=\\log_2(x)-1\\).\nGrafica \\(y=\\ln(x-1)+1\\).\nExplica por qué \\(\\log(-3)\\) no es real.\nRelaciona la gráfica de \\(a^x\\) con \\(\\log_a(x)\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#más-problemas-propuestos",
+    "href": "unidad-14.html#más-problemas-propuestos",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: escribe \\(\\log_2(32)=5\\) en forma exponencial.\nContexto: una escala de ruido usa \\(L=10\\log\\left(\\frac{I}{I_0}\\right)\\). Explica qué ocurre si \\(I\\) aumenta.\nTeórico: combina \\(2\\log x-\\log(x+1)\\) en un solo logaritmo.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-14.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nFunciones logarítmicas\n4.3\n322\nEjercicios impares 1-57\n\n\nLeyes de logaritmos\n4.4\n328\nEjercicios impares 1-63\n\n\nEcuaciones logarítmicas iniciales\n4.5\n338\nEjercicios impares del bloque inicial",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-14.html#actividades-sugeridas",
+    "href": "unidad-14.html#actividades-sugeridas",
+    "title": "Unidad 14: Funciones logarítmicas y propiedades",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 14"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html",
+    "href": "unidad-12.html",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#material-base",
+    "href": "unidad-12.html#material-base",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Material base",
+    "text": "Material base\nSemana 12 y libro caps. 5, 6 y 7. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#objetivos-de-aprendizaje",
+    "href": "unidad-12.html#objetivos-de-aprendizaje",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nConvertir grados y radianes.\nUsar seno, coseno, tangente y recíprocas.\nVerificar identidades fundamentales.\nResolver triángulos rectángulos y ecuaciones trigonométricas simples.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#conceptos-previos-necesarios",
+    "href": "unidad-12.html#conceptos-previos-necesarios",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nÁngulos y proporciones.\nTeorema de Pitágoras.\nFunciones e inversas.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#teoría-esencial",
+    "href": "unidad-12.html#teoría-esencial",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nUn ángulo en posición normal tiene vértice en el origen y lado inicial en el eje x. Los radianes miden ángulo por longitud de arco sobre radio.\nEn un triángulo rectángulo, \\(\\sin\\theta=\\frac{\\text{opuesto}}{\\text{hipotenusa}}\\), \\(\\cos\\theta=\\frac{\\text{adyacente}}{\\text{hipotenusa}}\\) y \\(\\tan\\theta=\\frac{\\text{opuesto}}{\\text{adyacente}}\\).\nLas identidades permiten transformar expresiones sin cambiar su valor en el dominio común.\nLas ecuaciones trigonométricas pueden tener infinitas soluciones por periodicidad.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-12.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nEl libro presenta dos enfoques complementarios: circunferencia unitaria y triángulo rectángulo. Ambos describen las mismas razones trigonométricas.\nLos radianes son naturales para funciones trigonométricas porque conectan ángulo y longitud de arco.\nLas identidades trigonométricas se verifican transformando un lado de la igualdad hasta obtener el otro, respetando el dominio.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#fórmulas-y-criterios-clave",
+    "href": "unidad-12.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(180^\\circ=\\pi\\text{ rad}\\)\n\\(\\sin^2(x)+\\cos^2(x)=1\\)\n\\(\\tan(x)=\\frac{\\sin(x)}{\\cos(x)}\\)\n\\(1+\\tan^2(x)=\\sec^2(x)\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#ejemplos-guiados",
+    "href": "unidad-12.html#ejemplos-guiados",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nConversión: \\(60^\\circ=\\frac{60\\pi}{180}=\\frac{\\pi}{3}\\text{ rad}\\).\nTriángulo: Si \\(\\cos\\theta=\\frac34\\), entonces hipotenusa 4, adyacente 3, opuesto \\(\\sqrt7\\).\nAltura: A 25 pies y ángulo 30 grados: \\(h=25\\tan(30^\\circ)\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-12.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nLongitud de arco. Una rueda de radio \\(0.4\\) m gira un ángulo de \\(3\\) rad. ¿Qué distancia recorre un punto del borde?\nSolución explicada. La longitud de arco es \\(s=r\\theta=0.4(3)=1.2\\) m.\nIdentidad básica. Simplifica \\(\\frac{\\sin x}{\\cos x}\\cdot \\cos x\\) donde \\(\\cos x\\ne 0\\).\nSolución explicada. Se cancela \\(\\cos x\\) y queda \\(\\sin x\\). También puede reconocerse como \\(\\tan x\\cos x=\\sin x\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#problemas-resueltos-con-contexto",
+    "href": "unidad-12.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nAltura de un poste. Una persona está a \\(25\\) m de un poste y observa su punta con ángulo de elevación \\(30^\\circ\\). Halla la altura.\nSolución. Usamos \\(\\tan(30^\\circ)=\\frac{h}{25}\\). Entonces \\(h=25\\tan(30^\\circ)\\approx 14.43\\) m.\nRampa de acceso. Una rampa sube \\(1.2\\) m y forma un ángulo de \\(8^\\circ\\) con el suelo. ¿Cuál es su longitud aproximada?\nSolución. Como \\(\\sin(8^\\circ)=\\frac{1.2}{L}\\), entonces \\(L=\\frac{1.2}{\\sin(8^\\circ)}\\approx 8.62\\) m.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#problemas-propuestos-con-contexto",
+    "href": "unidad-12.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nDesde un punto a \\(40\\) m de un edificio se mide un ángulo de elevación de \\(35^\\circ\\). Estima la altura.\nUna escalera de \\(6\\) m forma \\(70^\\circ\\) con el piso. ¿A qué altura llega?\nUn dron está a \\(50\\) m de distancia horizontal y se observa con ángulo \\(42^\\circ\\). Calcula su altura.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-12.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#ejercicios-propuestos",
+    "href": "unidad-12.html#ejercicios-propuestos",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nConvierte 60 grados a radianes.\nConvierte \\(\\pi/6\\) rad a grados.\nHalla el complementario de 74.23 grados.\nHalla el suplementario de \\(\\pi/3\\).\nCalcula las seis razones trigonométricas de un triángulo 3-4-5.\nSi \\(\\cos\\theta=\\frac34\\), halla las otras razones.\nVerifica \\(\\frac{\\sin^2(x)}{1-\\cos(x)}=1+\\cos(x)\\), donde aplique.\nResuelve \\(\\sin(x)=\\frac{\\sqrt2}{2}\\) en 0 a \\(2\\pi\\).\nCalcula la altura de un asta con distancia 25 pies y ángulo 30 grados.\nResuelve un problema de diagonal de caja rectangular.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#más-problemas-propuestos",
+    "href": "unidad-12.html#más-problemas-propuestos",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: convierte \\(225^\\circ\\) a radianes.\nContexto: una rueda de radio \\(30\\) cm gira \\(\\frac{5\\pi}{3}\\) rad. Calcula la longitud de arco.\nTeórico: verifica \\(1-\\cos^2 x=\\sin^2 x\\) usando la identidad pitagórica.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-12.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nCircunferencia unitaria\n5.1\n374\nEjercicios impares 1-49\n\n\nFunciones trigonométricas de números reales\n5.2\n384\nEjercicios impares 1-45\n\n\nMedida de ángulos\n6.1\n440\nEjercicios impares 1-57\n\n\nTriángulos rectángulos\n6.2\n448\nEjercicios impares 1-51\n\n\nIdentidades trigonométricas\n7.1\n498\nEjercicios impares 1-61",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-12.html#actividades-sugeridas",
+    "href": "unidad-12.html#actividades-sugeridas",
+    "title": "Unidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 12"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html",
+    "href": "unidad-10.html",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#material-base",
+    "href": "unidad-10.html#material-base",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Material base",
+    "text": "Material base\nSemana 10, actividad 10 y libro cap. 3. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#objetivos-de-aprendizaje",
+    "href": "unidad-10.html#objetivos-de-aprendizaje",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nIdentificar funciones polinomiales.\nDividir polinomios por algoritmo largo y Ruffini.\nUsar teoremas del residuo y del factor.\nFactorizar polinomios con ceros racionales.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#conceptos-previos-necesarios",
+    "href": "unidad-10.html#conceptos-previos-necesarios",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nPolinomios y factorización.\nEvaluación de funciones.\nGráficas básicas.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#teoría-esencial",
+    "href": "unidad-10.html#teoría-esencial",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nToda función polinomial tiene dominio real completo. Su grado y coeficiente principal orientan el comportamiento final de la gráfica.\nLa división de polinomios escribe \\(P(x)=D(x)Q(x)+R(x)\\), con grado del residuo menor que el divisor.\nEl teorema del residuo dice que al dividir P(x) entre \\(x-c\\), el residuo es \\(P(c)\\).\nEl teorema del factor dice que \\(x-c\\) es factor de P(x) exactamente cuando \\(P(c)\\)=0.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-10.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nLos polinomios son modelos flexibles: pueden aproximar curvas de datos y describir volúmenes, utilidades o trayectorias.\nEl teorema del residuo conecta evaluación y división: dividir por \\(x-c\\) tiene residuo \\(P(c)\\).\nEl teorema del factor permite convertir una raíz conocida en un factor algebraico.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#fórmulas-y-criterios-clave",
+    "href": "unidad-10.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(P(x)=D(x)Q(x)+R(x)\\)\nResiduo al dividir por \\(x-c\\): \\(P(c)\\)\n\\(x-c\\) es factor \\(\\Longleftrightarrow P(c)=0\\)\nCero racional posible: \\(\\frac{p}{q}\\), con \\(p\\mid a_0\\) y \\(q\\mid a_n\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#ejemplos-guiados",
+    "href": "unidad-10.html#ejemplos-guiados",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nResiduo: \\(P(x)=2x^3-7x^2+5\\); al dividir entre \\(x-3\\), el residuo es \\(P(3)=54-63+5=-4\\).\nFactor: \\(P(x)=x^3-7x+6\\); \\(P(1)=0\\), entonces \\(x-1\\) es factor.\nCeros: \\(x^3-4x^2+x+6=(x-2)(x-3)(x+1)\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-10.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nVolumen de una caja. Una caja tiene volumen \\(V(x)=x^3+6x^2+11x+6\\). Verifica si \\(x+1\\) es factor.\nSolución explicada. Se evalúa \\(V(-1)=-1+6-11+6=0\\). Entonces \\(x+1\\) es factor.\nResiduo. Halla el residuo al dividir \\(P(x)=3x^3-2x+4\\) entre \\(x-2\\).\nSolución explicada. El residuo es \\(P(2)=3(8)-4+4=24\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#problemas-resueltos-con-contexto",
+    "href": "unidad-10.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nProducción de licuadoras. La utilidad de una fábrica se modela por \\(p(x)=8x+0.3x^2-0.0013x^3-372\\). ¿Qué representa resolver \\(p(x)=0\\)?\nSolución. Resolver \\(p(x)=0\\) permite encontrar puntos de equilibrio: cantidades donde la empresa no gana ni pierde.\nResiduo en empaque. Un polinomio de volumen \\(P(x)=x^3-7x+6\\) se divide por \\(x-1\\). ¿Cuál es el residuo?\nSolución. Por el teorema del residuo, el residuo es \\(P(1)=1-7+6=0\\). Entonces \\(x-1\\) es factor.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#problemas-propuestos-con-contexto",
+    "href": "unidad-10.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUna caja tiene volumen \\(V(x)=x^3+2x^2-5x-6\\). Evalúa \\(V(2)\\) e interpreta.\nUsa el teorema del residuo para dividir \\(P(x)=2x^3-3x+1\\) entre \\(x-1\\).\nDetermina si \\(x+2\\) es factor de \\(P(x)=x^3+3x^2-4x-12\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-10.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#ejercicios-propuestos",
+    "href": "unidad-10.html#ejercicios-propuestos",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nDivide \\(6x^2-26x+12\\) entre \\(x-4\\).\nDivide \\(8x^4-6x^2-3x+1\\) entre \\(2x^2-x+2\\).\nUsa Ruffini en \\(2x^3-7x^2+5\\) entre \\(x-3\\).\nCalcula el residuo de \\(x^{1966}-1\\) entre \\(x-1\\).\nFactoriza \\(x^3-7x+6\\).\nLista ceros racionales posibles de \\(2x^4+x^3-8x^2-x+6\\).\nFactoriza \\(2x^4+x^3-8x^2-x+6\\).\nDetermina si \\(x+1\\) es factor de \\(4x^5-x^3-3x^2+2\\).\nModela la utilidad \\(p(x)=8x+0.3x^2-0.0013x^3-372\\).\nUsa GeoGebra o tabla de valores para estimar un punto de equilibrio.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#más-problemas-propuestos",
+    "href": "unidad-10.html#más-problemas-propuestos",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: explica la relación entre ceros, factores e intersecciones con el eje \\(x\\).\nContexto: una utilidad se modela con \\(U(x)=-x^3+12x^2-20x-50\\). ¿Qué significa resolver \\(U(x)=0\\)?\nTeórico: usa posibles ceros racionales para listar candidatos de \\(P(x)=2x^3-x^2-8x+4\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-10.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nFunciones polinomiales y gráficas\n3.2\n242\nEjercicios impares 1-53\n\n\nDivisión de polinomios\n3.3\n250\nEjercicios impares 1-45\n\n\nCeros reales y teoremas\n3.4\n260\nEjercicios impares 1-61",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-10.html#actividades-sugeridas",
+    "href": "unidad-10.html#actividades-sugeridas",
+    "title": "Unidad 10: Funciones polinomiales, división, residuo, factor y ceros",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 10"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html",
+    "href": "unidad-08.html",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#material-base",
+    "href": "unidad-08.html#material-base",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Material base",
+    "text": "Material base\nSemana 8, documento de función cuadrática y libro cap. 2. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#objetivos-de-aprendizaje",
+    "href": "unidad-08.html#objetivos-de-aprendizaje",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nGraficar parábolas desde vértice e intersecciones.\nUsar discriminante para saber cuántos cortes hay.\nResolver problemas de máximo y mínimo.\nInterpretar funciones definidas por intervalos.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#conceptos-previos-necesarios",
+    "href": "unidad-08.html#conceptos-previos-necesarios",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nFactorización.\nFórmula cuadrática.\nPlano cartesiano y funciones.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#teoría-esencial",
+    "href": "unidad-08.html#teoría-esencial",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nUna función cuadrática tiene forma \\(f(x)=ax^2+bx+c\\) con a distinto de cero. Si \\(a&gt;0\\) abre hacia arriba; si \\(a&lt;0\\) abre hacia abajo.\nEl vértice está en \\(x=-\\frac{b}{2a}\\) y su valor es \\(f\\left(-\\frac{b}{2a}\\right)\\). Allí ocurre mínimo si \\(a&gt;0\\) y máximo si \\(a&lt;0\\).\nEl discriminante \\(b^2-4ac\\) indica los cortes con el eje x: dos, uno o ninguno.\nUna función a trozos usa reglas diferentes en partes distintas del dominio. En los puntos de cambio se revisan valor, continuidad e intersecciones.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-08.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nLas funciones cuadráticas modelan situaciones con máximos o mínimos, como áreas, ganancias y movimiento vertical.\nEl signo de \\(a\\) determina la apertura de la parábola y la naturaleza del vértice: mínimo si \\(a&gt;0\\), máximo si \\(a&lt;0\\).\nEn funciones a trozos, el análisis debe hacerse intervalo por intervalo y revisar los puntos de cambio.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#fórmulas-y-criterios-clave",
+    "href": "unidad-08.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(x_v=-\\frac{b}{2a}\\)\n\\(x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\)\n\\(f(0)=c\\)\n\\(D=b^2-4ac\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#ejemplos-guiados",
+    "href": "unidad-08.html#ejemplos-guiados",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nRaíces: \\(x^2+5x-24=0\\Rightarrow (x-3)(x+8)=0\\Rightarrow x=3,-8\\).\nVértice: \\(f(x)=x^2-2x-3\\): \\(x_v=1\\), \\(f(1)=-4\\), vértice (1,-4).\nCohete: \\(s(t)=-16t^2+96t+256\\): \\(t_v=3\\), altura máxima \\(s(3)=400\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-08.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nÁrea máxima. Con \\(40\\) m de cerca se arma un rectángulo junto a una pared, usando cerca para tres lados. Si el ancho es \\(x\\), el área es \\(A(x)=x(40-2x)\\). Maximiza.\nSolución explicada. Expandimos \\(A(x)=-2x^2+40x\\). El vértice está en \\(x=-\\frac{40}{2(-2)}=10\\). El largo es \\(20\\) y el área máxima \\(200\\text{ m}^2\\).\nContinuidad a trozos. Sea \\(f(x)=x+1\\) si \\(x&lt;2\\) y \\(f(x)=5\\) si \\(x\\ge 2\\). ¿Es continua en \\(x=2\\)?\nSolución explicada. Por la izquierda, \\(x+1\\to 3\\). Pero \\(f(2)=5\\). Como no coinciden, no es continua.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#problemas-resueltos-con-contexto",
+    "href": "unidad-08.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nLanzamiento de pelota. La altura de una pelota está dada por \\(h(t)=-5t^2+20t+1\\). ¿Cuándo alcanza su altura máxima?\nSolución. El tiempo del vértice es \\(t=-\\frac{b}{2a}=-\\frac{20}{2(-5)}=2\\). La altura máxima es \\(h(2)=-20+40+1=21\\) m.\nIngreso por precio. Una tienda modela su ganancia como \\(G(x)=-2x^2+80x-300\\). ¿Qué valor de \\(x\\) maximiza la ganancia?\nSolución. Como \\(a&lt;0\\), el máximo está en el vértice: \\(x=-\\frac{80}{2(-2)}=20\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#problemas-propuestos-con-contexto",
+    "href": "unidad-08.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUn objeto sigue \\(s(t)=-16t^2+64t+5\\). Halla el tiempo de altura máxima.\nUna ganancia se modela por \\(P(x)=-x^2+30x-125\\). Encuentra el valor de \\(x\\) que maximiza.\nDiseña una función a trozos para una tarifa de parqueadero: primera hora fija y horas adicionales con otro costo.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-08.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#ejercicios-propuestos",
+    "href": "unidad-08.html#ejercicios-propuestos",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nGrafica \\(y=x^2+5x-24\\).\nHalla vértice de \\(f(x)=2x^2-8x+1\\).\nDetermina cortes con ejes de \\(f(x)=-x^2+4x+5\\).\nUsa discriminante en \\(3x^2-2x+7\\).\nEncuentra máximo de \\(-2x^2+12x-5\\).\nResuelve cuándo el cohete s(t) toca el suelo.\nDefine una función a trozos con dos rectas y grafícala.\nIndica discontinuidades de una función a trozos dada por tu profesor.\nCrea un problema de ingresos cuadráticos y encuentra el precio óptimo.\nCompara solución por factorización y fórmula cuadrática en un mismo ejercicio.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#más-problemas-propuestos",
+    "href": "unidad-08.html#más-problemas-propuestos",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: determina el número de raíces reales si \\(b^2-4ac&lt;0\\).\nContexto: una pelota tiene altura \\(h(t)=-4.9t^2+15t+2\\). Halla cuándo alcanza su máximo.\nTeórico: construye una función a trozos que sea continua en \\(x=1\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-08.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nTransformaciones de funciones\n2.5\n186\nEjercicios impares 1-51\n\n\nFunciones cuadráticas\n3.1\n228\nEjercicios impares 1-57\n\n\nGráficas de funciones\n2.2\n158\nEjercicios impares de lectura gráfica",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-08.html#actividades-sugeridas",
+    "href": "unidad-08.html#actividades-sugeridas",
+    "title": "Unidad 8: Función cuadrática y función definida a trozos",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 8"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html",
+    "href": "unidad-06.html",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#material-base",
+    "href": "unidad-06.html#material-base",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Material base",
+    "text": "Material base\nSemana 6 taller de repaso. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#objetivos-de-aprendizaje",
+    "href": "unidad-06.html#objetivos-de-aprendizaje",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nIntegrar aritmética, álgebra y geometría analítica.\nResolver problemas aplicados con porcentajes y proporciones.\nDespejar fórmulas.\nPreparar el primer parcial con ejercicios mixtos.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#conceptos-previos-necesarios",
+    "href": "unidad-06.html#conceptos-previos-necesarios",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nSemanas 1 a 5 completas.\nLectura cuidadosa de problemas verbales.\nUso de unidades y porcentajes.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#teoría-esencial",
+    "href": "unidad-06.html#teoría-esencial",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nEl repaso no introduce un tema aislado: entrena la selección de herramientas. Antes de operar, identifica si el problema pide porcentaje, ecuación, factorización, despeje o geometría.\nEn porcentajes, aumentar 20% y luego disminuir 20% no regresa necesariamente al valor inicial porque la base cambia.\nEn sucesiones aritméticas se suma una cantidad fija; en patrones geométricos se multiplica por una razón fija.\nDespejar una variable significa dejarla sola aplicando operaciones inversas de forma equilibrada.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-06.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nEl repaso del libro combina modelos verbales con ecuaciones. Una estrategia útil es subrayar cantidades conocidas, variable y condición final.\nLos porcentajes deben tratarse como factores multiplicativos: aumentar \\(r\\%\\) equivale a multiplicar por \\(1+\\frac{r}{100}\\).\nLos despejes son más claros cuando se identifica qué operaciones están afectando a la variable objetivo.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#fórmulas-y-criterios-clave",
+    "href": "unidad-06.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(\\text{Porcentaje}=\\frac{\\text{parte}}{\\text{total}}\\cdot 100\\)\n\\(A_n=A_1+(n-1)d\\)\n\\(G_n=G_1r^{n-1}\\)\n\\(A=P\\left(1+\\frac{i}{100}\\right)^2\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#ejemplos-guiados",
+    "href": "unidad-06.html#ejemplos-guiados",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nDescuento: 160000 sin IVA de 19%: precio base = \\(160000/1.19\\), si el precio original incluía IVA.\nAhorro aritmético: \\(5000,6000,7000,\\ldots\\); semana 10: \\(5000+9(1000)=14000\\).\nDespeje: \\(a^2x+a-1=(a+1)x\\Rightarrow x(a^2-a-1)=1-a\\Rightarrow x=\\frac{1-a}{a^2-a-1}\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-06.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nIncremento de área. Un rectángulo pasa de \\(20\\text{ m}^2\\) a \\(26\\text{ m}^2\\). ¿Cuál fue el porcentaje de aumento?\nSolución explicada. El aumento fue \\(6\\text{ m}^2\\). Entonces \\(\\frac{6}{20}\\cdot 100=30\\%\\).\nDespeje con raíz. Despeja \\(r\\) en \\(A=\\pi r^2\\).\nSolución explicada. Dividimos por \\(\\pi\\): \\(\\frac{A}{\\pi}=r^2\\). Tomamos raíz positiva porque \\(r\\) es radio: \\(r=\\sqrt{\\frac{A}{\\pi}}\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#problemas-resueltos-con-contexto",
+    "href": "unidad-06.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nAhorro semanal. Una estudiante ahorra \\(5000\\) pesos la primera semana y aumenta \\(1000\\) cada semana. ¿Cuánto ahorra en la semana \\(10\\)?\nSolución. Es una sucesión aritmética: \\(A_n=A_1+(n-1)d\\). Entonces \\(A_{10}=5000+9(1000)=14000\\) pesos.\nDescuento real. Un producto de \\(60000\\) pesos recibe descuento del \\(20\\%\\) y luego aumento del \\(20\\%\\). ¿Vuelve a \\(60000\\)?\nSolución. Después del descuento queda \\(60000(0.8)=48000\\). Luego aumenta a \\(48000(1.2)=57600\\). No vuelve al precio inicial.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#problemas-propuestos-con-contexto",
+    "href": "unidad-06.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUna alcancía inicia con \\(10000\\) pesos y cada semana agrega \\(2500\\). ¿Cuánto tendrá en la semana \\(16\\)?\nUn producto aumenta \\(15\\%\\) y luego baja \\(15\\%\\). Prueba con \\(100000\\) pesos si vuelve al valor inicial.\nDespeja \\(r\\) en la fórmula de interés simple \\(I=Prt\\) y explica qué representa cada variable.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-06.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#ejercicios-propuestos",
+    "href": "unidad-06.html#ejercicios-propuestos",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nCalcula el mayor aporte si 15% equivale a 9000000.\nHalla el precio con día sin IVA de un producto de 160000.\nAplica descuento del 20% y luego aumento del 20% a 60000.\nResuelve un problema de salarios con fracciones 4/5 y 3/5.\nCalcula porcentaje de descuento de 18.98 a 9.97.\nSimplifica una expresión con potencias y radicales del taller.\nRacionaliza \\(\\frac{2(x-y)}{\\sqrt{x-y}}\\).\nDespeja i en \\(A=P\\left(1+\\frac{i}{100}\\right)^2\\).\nDetermina h para que una cuadrática tenga raíz doble.\nResuelve el problema del jardín rectangular de perímetro 200 y área 2400.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#más-problemas-propuestos",
+    "href": "unidad-06.html#más-problemas-propuestos",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: despeja \\(h\\) en \\(V=\\frac{1}{3}\\pi r^2h\\).\nContexto: un precio de \\(85000\\) aumenta \\(12\\%\\). Calcula el nuevo precio.\nTeórico: explica la diferencia entre una sucesión aritmética y una geométrica con ejemplos.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-06.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nRepaso de fundamentos\nCapítulo 1 Repaso\n124\nEjercicios impares 1-61\n\n\nExamen de capítulo\nCapítulo 1 Examen\n128\nEjercicios impares para diagnóstico\n\n\nAjuste lineal de datos\nEnfoque sobre modelado, cap. 1\n130\nProblemas de aplicación seleccionados",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-06.html#actividades-sugeridas",
+    "href": "unidad-06.html#actividades-sugeridas",
+    "title": "Unidad 6: Taller integrador y parcial 1",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 6"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html",
+    "href": "unidad-04.html",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#material-base",
+    "href": "unidad-04.html#material-base",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Material base",
+    "text": "Material base\nActividad semana 4 y libro cap. 1. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#objetivos-de-aprendizaje",
+    "href": "unidad-04.html#objetivos-de-aprendizaje",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nFactorizar por factor común, agrupación y productos notables.\nSimplificar expresiones racionales algebraicas.\nRacionalizar denominadores o numeradores con radicales.\nVerificar equivalencias algebraicas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#conceptos-previos-necesarios",
+    "href": "unidad-04.html#conceptos-previos-necesarios",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nProductos notables.\nMultiplicación de polinomios.\nFracciones y radicales.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#teoría-esencial",
+    "href": "unidad-04.html#teoría-esencial",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nFactorizar es escribir una expresión como producto. Conviene buscar primero factor común y luego identificar el número de términos.\nDos términos pueden ser diferencia de cuadrados o suma/diferencia de cubos. Tres términos pueden ser trinomios cuadrados perfectos o trinomios factorizables.\nUna fracción algebraica solo se simplifica cancelando factores, no términos sueltos.\nPara racionalizar con binomios radicales se multiplica por el conjugado.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-04.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nEn el libro, factorizar aparece como una operación inversa a expandir. Sirve para resolver ecuaciones, simplificar fracciones algebraicas y reconocer estructuras.\nAntes de aplicar técnicas especiales, se busca factor común. Esta decisión simplifica casi todos los métodos posteriores.\nAl simplificar fracciones racionales, solo se cancelan factores completos. Cancelar términos sueltos cambia la expresión.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#fórmulas-y-criterios-clave",
+    "href": "unidad-04.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(a^2-b^2=(a-b)(a+b)\\)\n\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)\n\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)\n\\(\\frac{1}{\\sqrt a+\\sqrt b}\\cdot\\frac{\\sqrt a-\\sqrt b}{\\sqrt a-\\sqrt b}\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#ejemplos-guiados",
+    "href": "unidad-04.html#ejemplos-guiados",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nDiferencia de cubos: \\(x^3-8=(x-2)(x^2+2x+4)\\).\nTrinomio: \\(6x^2-11x-35=(2x+5)(3x-7)\\).\nRacionalizar: \\(\\frac{4}{\\sqrt5+2}=\\frac{4(\\sqrt5-2)}{5-4}=4\\sqrt5-8\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-04.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nCancelar correctamente. Simplifica \\(\\frac{x^2+5x}{x}\\) e indica la restricción.\nSolución explicada. Factorizamos el numerador: \\(\\frac{x(x+5)}{x}=x+5\\), con \\(x\\ne 0\\).\nDiseño de un empaque. El área de una cara rectangular es \\(2x^2+7x+3\\). Factoriza para encontrar posibles dimensiones.\nSolución explicada. Buscamos factores: \\(2x^2+7x+3=(2x+1)(x+3)\\). Las dimensiones pueden ser \\(2x+1\\) y \\(x+3\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#problemas-resueltos-con-contexto",
+    "href": "unidad-04.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nDimensiones de una terraza. El área de una terraza es \\(x^2+7x+12\\). Si se quiere expresar como producto de largo por ancho, factoriza.\nSolución. Buscamos dos números que sumen \\(7\\) y multipliquen \\(12\\): \\(3\\) y \\(4\\). Entonces \\(x^2+7x+12=(x+3)(x+4)\\).\nSimplificar una tasa. La expresión \\(\\frac{x^2-9}{x-3}\\) modela una razón de cambio para \\(x\\ne 3\\). Simplifica.\nSolución. Factorizamos \\(x^2-9=(x-3)(x+3)\\). Entonces \\(\\frac{x^2-9}{x-3}=x+3\\), con \\(x\\ne 3\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#problemas-propuestos-con-contexto",
+    "href": "unidad-04.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nEl área de una pantalla está dada por \\(x^2+5x+6\\). Factoriza para interpretar sus posibles dimensiones.\nSimplifica \\(\\frac{x^2-16}{x-4}\\) e indica qué valor de \\(x\\) no se permite.\nRacionaliza \\(\\frac{10}{\\sqrt{5}}\\) en el contexto de una medida que debe escribirse sin radical en el denominador.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-04.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#ejercicios-propuestos",
+    "href": "unidad-04.html#ejercicios-propuestos",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nFactoriza \\(x^2-3x+5x-15\\).\nFactoriza \\(81a^2-144\\).\nFactoriza \\(24x^2-6xy+16yx-4y^2\\).\nFactoriza \\(y^8-5y^4+4\\).\nSimplifica \\(\\frac{m^2-m-6}{m^2-9}\\).\nSimplifica \\(\\frac{x^2+x-2}{x^2+4x+3}\\).\nComprueba si \\(2x-5^2=4x^2-25\\) es verdadero o falso.\nRacionaliza \\(\\frac{4}{\\sqrt5+2}\\).\nRacionaliza el numerador de \\(\\frac{\\sqrt{4+h}-2}{h}\\).\nDiseña una figura rectangular y expresa área y perímetro como polinomios factorizados.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#más-problemas-propuestos",
+    "href": "unidad-04.html#más-problemas-propuestos",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: factoriza completamente \\(x^3-4x\\).\nContexto: una ventana tiene área \\(x^2-9\\). Interpreta sus dimensiones factorizadas.\nTeórico: explica por qué \\(\\frac{x+2}{x}\\) no se simplifica a \\(2\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-04.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nExponentes, radicales y racionalización\n1.2\n20\nEjercicios impares 47-89\n\n\nFactorización y productos notables\n1.3\n32\nEjercicios impares 59-101\n\n\nSimplificación racional\n1.4\n40\nEjercicios impares 1-49",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-04.html#actividades-sugeridas",
+    "href": "unidad-04.html#actividades-sugeridas",
+    "title": "Unidad 4: Factorización, simplificación y racionalización",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 4"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html",
+    "href": "unidad-02.html",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#material-base",
+    "href": "unidad-02.html#material-base",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Material base",
+    "text": "Material base\nSemana 2, actividad 2 y libro cap. 1. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#objetivos-de-aprendizaje",
+    "href": "unidad-02.html#objetivos-de-aprendizaje",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nResolver ecuaciones lineales y cuadráticas sencillas.\nExpresar soluciones de desigualdades en intervalos.\nResolver desigualdades con valor absoluto.\nModelar problemas con razones, proporciones y ecuaciones.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#conceptos-previos-necesarios",
+    "href": "unidad-02.html#conceptos-previos-necesarios",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nOperaciones con números reales.\nPropiedades de igualdad.\nLectura de intervalos en la recta real.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#teoría-esencial",
+    "href": "unidad-02.html#teoría-esencial",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nUna ecuación afirma que dos expresiones son iguales. Resolverla significa hallar los valores que hacen verdadera esa igualdad.\nUna desigualdad suele tener infinitas soluciones. Si se multiplica o divide por un número negativo, el sentido de la desigualdad cambia.\nEl valor absoluto \\(|a|\\) representa distancia al cero. Por eso \\(|x-3|&lt;2\\) significa que x está a menos de 2 unidades de 3.\nUna proporción es igualdad de razones: \\(\\frac{a}{b}=\\frac{c}{d}\\). Su propiedad central es \\(ad=bc\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-02.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nEl libro presenta ecuaciones como herramientas para traducir relaciones verbales. El paso más importante no es despejar, sino definir con claridad la variable.\nEn desigualdades, la solución suele ser un intervalo. Por eso es útil verificar un número dentro y otro fuera del intervalo obtenido.\nLas ecuaciones con valor absoluto se interpretan como distancias: \\(|x-a|=r\\) representa puntos ubicados a distancia \\(r\\) de \\(a\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#fórmulas-y-criterios-clave",
+    "href": "unidad-02.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(A=B \\Longleftrightarrow A+C=B+C\\)\n\\(A&lt;B\\) y \\(C&lt;0 \\Longrightarrow AC&gt;BC\\)\n\\(|x-a|&lt;r \\Longrightarrow a-r&lt;x&lt;a+r\\)\n\\(\\frac{a}{b}=\\frac{c}{d}\\Longrightarrow ad=bc\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#ejemplos-guiados",
+    "href": "unidad-02.html#ejemplos-guiados",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nEcuación: \\(3(x+3)=x+5 \\Rightarrow 3x+9=x+5 \\Rightarrow 2x=-4 \\Rightarrow x=-2\\).\nDesigualdad: \\(8x+4&lt;16+5x \\Rightarrow 3x&lt;12 \\Rightarrow x&lt;4\\).\nProporción: \\(\\frac{x}{63}=\\frac{5}{9}\\Rightarrow 9x=315\\Rightarrow x=35\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-02.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nControl de temperatura. Un laboratorio exige que la temperatura \\(T\\) esté a menos de \\(2^\\circ\\)C de \\(20^\\circ\\)C. Escribe y resuelve la desigualdad.\nSolución explicada. La condición es \\(|T-20|&lt;2\\). Entonces \\(18&lt;T&lt;22\\). La temperatura debe estar entre \\(18^\\circ\\)C y \\(22^\\circ\\)C.\nComparar planes. Un servicio A cobra \\(30000+2000x\\) y otro B cobra \\(45000\\). ¿Desde cuántas unidades \\(x\\) conviene B?\nSolución explicada. Conviene B cuando \\(45000&lt;30000+2000x\\). Entonces \\(15000&lt;2000x\\) y \\(x&gt;7.5\\). Desde \\(8\\) unidades conviene B.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#problemas-resueltos-con-contexto",
+    "href": "unidad-02.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nPlan de transporte. Un viaje cobra una tarifa fija de \\(20000\\) pesos más \\(2500\\) por hora de espera. Si se pagaron \\(42500\\) pesos, ¿cuántas horas de espera hubo?\nSolución. Planteamos \\(20000+2500h=42500\\). Entonces \\(2500h=22500\\) y \\(h=9\\). Hubo \\(9\\) horas de espera.\nPresupuesto de cuadernos. Cada cuaderno cuesta \\(5500\\) pesos producirlo. Si el presupuesto máximo es \\(280000\\), ¿cuántos cuadernos se pueden producir?\nSolución. Se resuelve \\(5500x\\le 280000\\). Entonces \\(x\\le 50.9\\). Como no se producen fracciones de cuaderno, máximo \\(50\\) cuadernos.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#problemas-propuestos-con-contexto",
+    "href": "unidad-02.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUn gimnasio cobra \\(45000\\) de inscripción y \\(30000\\) por mes. Si una persona tiene \\(225000\\), ¿por cuántos meses puede pagar?\nUna receta requiere que la razón entre arroz y agua sea \\(1:2\\). Si se usan \\(3.5\\) tazas de arroz, ¿cuánta agua se necesita?\nUna temperatura debe mantenerse entre \\(18^\\circ\\)C y \\(24^\\circ\\)C. Escribe una desigualdad para la temperatura \\(T\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-02.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#ejercicios-propuestos",
+    "href": "unidad-02.html#ejercicios-propuestos",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nResuelve \\(5x-1=3x+7\\).\nResuelve \\(\\frac{2x-1}{5}=\\frac{3x+2}{6}\\).\nResuelve \\(\\frac{1}{2}-3x\\le 5\\).\nResuelve \\(3x-7\\le 6x+8\\).\nResuelve \\(x^2&lt;5x-6\\).\nResuelve \\(|2x+1|\\ge 3\\).\nResuelve \\(\\frac{|x-1|}{3}\\le 2\\).\nUn transporte cobra 20000 fijo más 2500 por hora. Si se pagó 42500, halla las horas.\nUn paquete de 2 kg cuesta 28000 y uno de 5 kg cuesta 46000. Modela el costo lineal.\nCrea una proporción aplicada a escalas de un plano y resuélvela.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#más-problemas-propuestos",
+    "href": "unidad-02.html#más-problemas-propuestos",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: resuelve \\(|x+4|=9\\) e interpreta las dos soluciones como distancias.\nContexto: un presupuesto permite gastar como máximo \\(180000\\) pesos. Si cada entrada cuesta \\(22000\\), plantea una desigualdad para el número de entradas.\nTeórico: explica por qué al multiplicar una desigualdad por \\(-3\\) cambia el sentido del signo.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-02.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nEcuaciones\n1.5\n54\nEjercicios impares 1-55\n\n\nModelado con ecuaciones\n1.6\n66\nEjercicios impares 1-35\n\n\nDesigualdades y valor absoluto\n1.7\n80\nEjercicios impares 1-47\n\n\nVariación y proporciones\n1.11\n120\nEjercicios impares 1-31",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "unidad-02.html#actividades-sugeridas",
+    "href": "unidad-02.html#actividades-sugeridas",
+    "title": "Unidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 2"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matemáticas Fundamentales",
+    "section": "",
+    "text": "Este sitio organiza el curso en 16 unidades independientes. Cada unidad conserva la estructura solicitada: conceptos previos, teoría, ejemplos guiados, ejercicios propuestos y actividades sugeridas antes, durante y después de clase.\nEl material base corresponde a los documentos entregados en books y al libro Precálculo: Matemáticas para el cálculo incluido en esa carpeta.\n\n\n\nUnidad 1: Números reales, operaciones, exponentes y radicales\nUnidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones\nUnidad 3: Expresiones algebraicas, polinomios y productos notables\nUnidad 4: Factorización, simplificación y racionalización\nUnidad 5: Plano cartesiano, circunferencia, intersecciones y simetría\nUnidad 6: Taller integrador y parcial 1\nUnidad 7: Funciones, dominio, rango, gráficas y función lineal\nUnidad 8: Función cuadrática y función definida a trozos\nUnidad 9: Composición de funciones y función inversa\nUnidad 10: Funciones polinomiales, división, residuo, factor y ceros\nUnidad 11: Funciones racionales, asíntotas y variación\nUnidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo\nUnidad 13: Funciones exponenciales y crecimiento\nUnidad 14: Funciones logarítmicas y propiedades\nUnidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones\nUnidad 16: Gráficas trigonométricas, ley del seno y ley del coseno\n\n\n\n\n\nLee los conceptos previos de la unidad.\nEstudia la teoría esencial y copia las fórmulas clave en tu cuaderno.\nReproduce los ejemplos guiados sin saltar pasos.\nResuelve los ejercicios propuestos y marca los errores repetidos.\nFormula una pregunta concreta para clase o tutoría.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#unidades",
+    "href": "index.html#unidades",
+    "title": "Matemáticas Fundamentales",
+    "section": "",
+    "text": "Unidad 1: Números reales, operaciones, exponentes y radicales\nUnidad 2: Ecuaciones, desigualdades, valor absoluto, razones y proporciones\nUnidad 3: Expresiones algebraicas, polinomios y productos notables\nUnidad 4: Factorización, simplificación y racionalización\nUnidad 5: Plano cartesiano, circunferencia, intersecciones y simetría\nUnidad 6: Taller integrador y parcial 1\nUnidad 7: Funciones, dominio, rango, gráficas y función lineal\nUnidad 8: Función cuadrática y función definida a trozos\nUnidad 9: Composición de funciones y función inversa\nUnidad 10: Funciones polinomiales, división, residuo, factor y ceros\nUnidad 11: Funciones racionales, asíntotas y variación\nUnidad 12: Trigonometría básica, identidades, inversas y triángulo rectángulo\nUnidad 13: Funciones exponenciales y crecimiento\nUnidad 14: Funciones logarítmicas y propiedades\nUnidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones\nUnidad 16: Gráficas trigonométricas, ley del seno y ley del coseno",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#recomendación-de-uso",
+    "href": "index.html#recomendación-de-uso",
+    "title": "Matemáticas Fundamentales",
+    "section": "",
+    "text": "Lee los conceptos previos de la unidad.\nEstudia la teoría esencial y copia las fórmulas clave en tu cuaderno.\nReproduce los ejemplos guiados sin saltar pasos.\nResuelve los ejercicios propuestos y marca los errores repetidos.\nFormula una pregunta concreta para clase o tutoría.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html",
+    "href": "unidad-01.html",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#material-base",
+    "href": "unidad-01.html#material-base",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Material base",
+    "text": "Material base\nSemana 1, actividad 1 y libro cap. 1. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#objetivos-de-aprendizaje",
+    "href": "unidad-01.html#objetivos-de-aprendizaje",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nClasificar números en racionales e irracionales.\nRepresentar números en la recta real.\nOperar con fracciones, signos, potencias y raíces.\nSimplificar expresiones numéricas antes de pasar al álgebra.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#conceptos-previos-necesarios",
+    "href": "unidad-01.html#conceptos-previos-necesarios",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nLectura de números enteros y fracciones.\nSuma, resta, multiplicación y división básicas.\nUso de paréntesis y jerarquía de operaciones.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#teoría-esencial",
+    "href": "unidad-01.html#teoría-esencial",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nLos números reales reúnen racionales e irracionales. Los racionales pueden escribirse como \\(a/b\\) con b distinto de cero; los irracionales tienen decimal infinito no periódico, como \\(\\sqrt{2}\\) o \\(\\pi\\).\nLa recta numérica permite comparar: a está a la izquierda de b si \\(a &lt; b\\). La distancia al origen se conecta después con valor absoluto.\nLas leyes de exponentes resumen productos repetidos:\n\n\\(a^m a^n = a^{m+n}\\)\n\\(\\frac{a^m}{a^n}=a^{m-n}\\)\n\\((a^m)^n=a^{mn}\\)\n\\(a^0=1\\)\n\\(a^{-n}=\\frac{1}{a^n}\\)\n\nUna raíz es una potencia fraccionaria: \\(\\sqrt[n]{a^m}=a^{m/n}\\), siempre cuidando el dominio cuando el índice es par.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-01.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nEl libro insiste en distinguir entre representar un número y operar con él. Por ejemplo, \\(0.25\\), \\(\\frac14\\) y \\(25\\%\\) expresan la misma cantidad en registros distintos.\nCuando aparece una raíz, conviene preguntarse si se necesita una forma exacta o una aproximación decimal. En precálculo se prefiere conservar formas como \\(3\\sqrt2\\) cuando no se pide redondear.\nLas leyes de exponentes solo se aplican cuando la estructura lo permite: \\(a^m+a^n\\) no se transforma en \\(a^{m+n}\\) porque no hay producto.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#fórmulas-y-criterios-clave",
+    "href": "unidad-01.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd}\\)\n\\(a^m a^n=a^{m+n}\\)\n\\((ab)^n=a^n b^n\\)\n\\(\\sqrt{ab}=\\sqrt{a}\\sqrt{b}\\), con \\(a,b\\ge 0\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#ejemplos-guiados",
+    "href": "unidad-01.html#ejemplos-guiados",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nClasificar: \\(\\frac{3}{8}\\) es racional porque es cociente de enteros; \\(\\sqrt{5}\\) es irracional porque no se\n\nexpresa como fracción exacta.\n\nExponentes: \\(2^3\\cdot 2^5=2^8=256\\).\nRadicales: \\(\\sqrt{72}=\\sqrt{36\\cdot 2}=6\\sqrt{2}\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-01.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nNotación científica. La distancia aproximada de la Tierra al Sol es \\(1.5\\times 10^8\\) km. Si la luz viaja a \\(3.0\\times 10^5\\) km/s, estima el tiempo de viaje de la luz.\nSolución explicada. Se divide distancia entre velocidad: \\(t=\\frac{1.5\\times 10^8}{3.0\\times 10^5}=0.5\\times 10^3=500\\) s. Esto equivale a unos \\(8.3\\) minutos.\nError común con exponentes. Decide si \\(2^3+2^4=2^7\\).\nSolución explicada. Calculamos: \\(2^3+2^4=8+16=24\\), mientras que \\(2^7=128\\). No son iguales. La regla \\(a^m a^n=a^{m+n}\\) aplica a productos, no a sumas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#problemas-resueltos-con-contexto",
+    "href": "unidad-01.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nCompra por porciones. Una familia compra \\(\\frac{3}{4}\\) kg de queso y luego usa \\(\\frac{1}{6}\\) kg para preparar arepas. ¿Cuánto queso queda?\nSolución. Se resta la parte usada: \\(\\frac{3}{4}-\\frac{1}{6}=\\frac{9}{12}-\\frac{2}{12}=\\frac{7}{12}\\). Quedan \\(\\frac{7}{12}\\) kg.\nAproximar una medida. Una mesa tiene diagonal \\(\\sqrt{2}\\) m. ¿Entre qué enteros está esa longitud?\nSolución. Como \\(1^2=1\\) y \\(2^2=4\\), entonces \\(1&lt;\\sqrt{2}&lt;2\\). La diagonal mide un poco más de \\(1\\) m y menos de \\(2\\) m.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#problemas-propuestos-con-contexto",
+    "href": "unidad-01.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUn tanque contiene \\(\\frac{5}{6}\\) de su capacidad y se consumen \\(\\frac{1}{4}\\). ¿Qué fracción queda?\nUn celular pierde \\(2^3\\) puntos de batería por hora durante \\(2\\) horas. ¿Cuántos puntos pierde en total?\nUna baldosa cuadrada tiene área \\(50\\text{ cm}^2\\). Expresa la longitud de su lado en forma simplificada.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-01.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#ejercicios-propuestos",
+    "href": "unidad-01.html#ejercicios-propuestos",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nClasifica: -7, 0.25, \\(\\sqrt{9}\\), \\(\\sqrt{11}\\), \\(\\pi\\), 0.333…\nOrdena de menor a mayor: \\(-\\frac{3}{2}\\), -1.4, \\(\\sqrt{2}\\), 0, \\(\\frac{5}{3}\\).\nCalcula \\(\\frac{2}{3}+\\frac{5}{6}-\\frac{1}{4}\\).\nSimplifica \\((-2)^4-3^2\\).\nSimplifica \\(\\frac{x^3x^5}{x^2}\\).\nEscribe con exponentes positivos: \\(5a^{-2}b^3\\).\nSimplifica \\(\\sqrt{98}\\).\nRacionaliza \\(\\frac{4}{\\sqrt{3}}\\).\nResuelve una operación combinada con fracciones creada por ti y verifica con calculadora.\nExplica por qué dividir entre cero no está definido.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#más-problemas-propuestos",
+    "href": "unidad-01.html#más-problemas-propuestos",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: explica por qué \\(\\sqrt{49}\\) es racional pero \\(\\sqrt{50}\\) es irracional.\nContexto: un archivo pesa \\(2.4\\times 10^3\\) MB. Exprésalo en GB si \\(1\\text{ GB}=10^3\\text{ MB}\\).\nTeórico: da un ejemplo donde \\(a^{-n}=\\frac{1}{a^n}\\) y otro donde la base \\(a=0\\) no se permite.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-01.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nNúmeros reales y operaciones\n1.1\n10\nEjercicios impares 1-39\n\n\nExponentes y radicales\n1.2\n20\nEjercicios impares 1-45\n\n\nRepaso acumulado\nCapítulo 1 Repaso\n124\nEjercicios impares del bloque inicial",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-01.html#actividades-sugeridas",
+    "href": "unidad-01.html#actividades-sugeridas",
+    "title": "Unidad 1: Números reales, operaciones, exponentes y radicales",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 1"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html",
+    "href": "unidad-03.html",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#material-base",
+    "href": "unidad-03.html#material-base",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Material base",
+    "text": "Material base\nSemana 3, actividad 3 y libro cap. 1. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#objetivos-de-aprendizaje",
+    "href": "unidad-03.html#objetivos-de-aprendizaje",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nDistinguir términos, coeficientes y grado.\nSumar, restar y multiplicar polinomios.\nUsar productos notables con seguridad.\nTraducir frases sencillas a lenguaje algebraico.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#conceptos-previos-necesarios",
+    "href": "unidad-03.html#conceptos-previos-necesarios",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nLeyes de exponentes.\nPropiedad distributiva.\nReducción de términos semejantes.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#teoría-esencial",
+    "href": "unidad-03.html#teoría-esencial",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nUna expresión algebraica combina números, letras y operaciones. Un polinomio es una suma de términos \\(a_kx^k\\) con exponentes enteros no negativos.\nSolo se reducen términos semejantes: tienen la misma parte literal con los mismos exponentes.\nLa multiplicación de polinomios aplica la distributiva a todos los términos.\nLos productos notables ahorran trabajo, pero deben entenderse como patrones que salen de multiplicar.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-03.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nEl libro trata las expresiones algebraicas como un lenguaje para generalizar patrones. Un polinomio puede representar áreas, costos, recorridos o cantidades acumuladas.\nReducir términos semejantes significa combinar cantidades de la misma naturaleza algebraica. No se suma \\(x\\) con \\(x^2\\) porque representan potencias distintas.\nLos productos notables son atajos, pero siempre pueden comprobarse con la propiedad distributiva.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#fórmulas-y-criterios-clave",
+    "href": "unidad-03.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\((a+b)^2=a^2+2ab+b^2\\)\n\\((a-b)^2=a^2-2ab+b^2\\)\n\\((a+b)(a-b)=a^2-b^2\\)\n\\((a+b)^3=a^3+3a^2b+3ab^2+b^3\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#ejemplos-guiados",
+    "href": "unidad-03.html#ejemplos-guiados",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nReducir: \\(3x^2-5x+7+4x^2+x-2=7x^2-4x+5\\).\nProducto: \\((2x-3)(x+5)=2x^2+10x-3x-15=2x^2+7x-15\\).\nNotable: \\((x-4)^2=x^2-8x+16\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-03.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nMaterial para una cerca. Un terreno rectangular tiene largo \\(3x+2\\) y ancho \\(x-1\\). Halla el perímetro simplificado.\nSolución explicada. El perímetro es \\(P=2(3x+2)+2(x-1)=6x+4+2x-2=8x+2\\).\nÁrea sombreada. Un cuadrado de lado \\(x+5\\) contiene un cuadrado interior de lado \\(x\\). Expresa el área restante.\nSolución explicada. El área restante es \\((x+5)^2-x^2=x^2+10x+25-x^2=10x+25\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#problemas-resueltos-con-contexto",
+    "href": "unidad-03.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nÁrea de una huerta. Una huerta rectangular mide \\((x+4)\\) metros de largo y \\((x+2)\\) metros de ancho. Escribe el área como polinomio.\nSolución. El área es \\(A=(x+4)(x+2)=x^2+6x+8\\).\nCosto de camisetas. Una camiseta cuesta \\(x\\) pesos y el estampado cuesta \\(3500\\) pesos. Si se compran \\(12\\) camisetas estampadas, expresa el costo total.\nSolución. Cada camiseta estampada cuesta \\(x+3500\\). El total es \\(12(x+3500)=12x+42000\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#problemas-propuestos-con-contexto",
+    "href": "unidad-03.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUn jardín cuadrado aumenta su lado de \\(x\\) a \\(x+3\\). Expande el área nueva.\nUna empresa vende paquetes con \\(p\\) lápices y agrega \\(5\\) de obsequio. Si entrega \\(8\\) paquetes, escribe el total de lápices.\nEl perímetro de una cancha rectangular tiene lados \\(2x+1\\) y \\(x+4\\). Escribe y simplifica el perímetro.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-03.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#ejercicios-propuestos",
+    "href": "unidad-03.html#ejercicios-propuestos",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nReduce \\(5x^2-2x+1-3x^2+9x-4\\).\nMultiplica \\(4x(2x^2-3x+7)\\).\nMultiplica \\((x+2)(x^2-3x+5)\\).\nDesarrolla \\((3x-1)^2\\).\nDesarrolla \\((2a+b)^3\\).\nCalcula \\((y+6)(y-6)\\).\nTraduce: el triple de un número disminuido en su cuarta parte.\nEscribe el perímetro de un rectángulo de lados x+3 y 2x-1.\nConstruye un polinomio de grado 4 con coeficiente principal negativo.\nExplica por qué \\(x^2+x\\) no se reduce a \\(x^3\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#más-problemas-propuestos",
+    "href": "unidad-03.html#más-problemas-propuestos",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: desarrolla \\((x+7)^2\\) y verifica multiplicando \\((x+7)(x+7)\\).\nContexto: una caja tiene base rectangular de lados \\(x+2\\) y \\(x+6\\). Escribe el área de la base.\nTeórico: construye dos polinomios de grado \\(3\\) y calcula su suma.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-03.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nExpresiones algebraicas\n1.3\n32\nEjercicios impares 1-57\n\n\nExpresiones racionales básicas\n1.4\n40\nEjercicios impares 1-37\n\n\nRepaso acumulado\nCapítulo 1 Repaso\n124\nEjercicios impares relacionados con álgebra",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-03.html#actividades-sugeridas",
+    "href": "unidad-03.html#actividades-sugeridas",
+    "title": "Unidad 3: Expresiones algebraicas, polinomios y productos notables",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 3"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html",
+    "href": "unidad-05.html",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#material-base",
+    "href": "unidad-05.html#material-base",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Material base",
+    "text": "Material base\nSemana 5, actividad 5 y libro cap. 1. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#objetivos-de-aprendizaje",
+    "href": "unidad-05.html#objetivos-de-aprendizaje",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nUbicar puntos y regiones en el plano.\nDeducir ecuaciones de circunferencias.\nCompletar cuadrados.\nAnalizar intersecciones y simetrías sin graficar completamente.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#conceptos-previos-necesarios",
+    "href": "unidad-05.html#conceptos-previos-necesarios",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nPares ordenados.\nDespeje de variables.\nCuadrados perfectos.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#teoría-esencial",
+    "href": "unidad-05.html#teoría-esencial",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nUn punto \\(P(a,b)\\) se ubica con coordenada x horizontal y coordenada y vertical.\nLa circunferencia de centro \\((h,k)\\) y radio r cumple \\((x-h)^2+(y-k)^2=r^2\\).\nCompletar cuadrados transforma \\(x^2+y^2+ax+by+c=0\\) en forma estándar para leer centro y radio.\nLas intersecciones con ejes se hallan usando \\(y=0\\) para el eje x y \\(x=0\\) para el eje y.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-05.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nLa geometría de coordenadas conecta álgebra con figuras. Una ecuación describe todos los puntos que cumplen una condición geométrica.\nLa distancia entre puntos se deriva del teorema de Pitágoras; por eso aparece una raíz cuadrada.\nCompletar cuadrados permite transformar una ecuación general en una forma donde centro y radio se leen directamente.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#fórmulas-y-criterios-clave",
+    "href": "unidad-05.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(d((x_1,y_1),(x_2,y_2))=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\\)\n\\((x-h)^2+(y-k)^2=r^2\\)\n\\(x^2+ax=\\left(x+\\frac a2\\right)^2-\\left(\\frac a2\\right)^2\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#ejemplos-guiados",
+    "href": "unidad-05.html#ejemplos-guiados",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nCentro y punto: Centro \\((4,3)\\), punto \\((1,4)\\): \\(r^2=(-3)^2+1^2=10\\), entonces \\((x-4)^2+(y-3)^2=10\\).\nCompletar: \\(x^2+y^2+10x-2y+17=0\\Rightarrow (x+5)^2+(y-1)^2=9\\).\nSimetría: \\(y=x^2\\) es simétrica respecto al eje y porque cambiar x por -x no altera y.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-05.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nZona de seguridad. Una zona circular tiene centro \\((-1,2)\\) y radio \\(4\\). Escribe su ecuación y decide si el punto \\((2,4)\\) está dentro.\nSolución explicada. La ecuación es \\((x+1)^2+(y-2)^2=16\\). Para \\((2,4)\\): \\((3)^2+(2)^2=13&lt;16\\), entonces está dentro.\nCompletar cuadrados. Encuentra centro y radio de \\(x^2+y^2-6x+4y-3=0\\).\nSolución explicada. Agrupamos: \\((x^2-6x)+(y^2+4y)=3\\). Completando: \\((x-3)^2+(y+2)^2=16\\). Centro \\((3,-2)\\), radio \\(4\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#problemas-resueltos-con-contexto",
+    "href": "unidad-05.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nCobertura de wifi. Un router ubicado en \\((2,3)\\) cubre un radio de \\(5\\) m. Escribe la ecuación de la circunferencia de cobertura.\nSolución. La forma es \\((x-h)^2+(y-k)^2=r^2\\). Entonces \\((x-2)^2+(y-3)^2=25\\).\nDistancia en un mapa. Dos puntos del campus están en \\(A(1,2)\\) y \\(B(5,5)\\). ¿Cuál es la distancia entre ellos?\nSolución. Usamos \\(d=\\sqrt{(5-1)^2+(5-2)^2}=\\sqrt{16+9}=5\\). La distancia es \\(5\\) unidades del mapa.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#problemas-propuestos-con-contexto",
+    "href": "unidad-05.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUna cámara de seguridad está en \\((0,0)\\) y cubre \\(8\\) m. Escribe la ecuación de su zona de cobertura.\nCalcula la distancia entre una biblioteca en \\((-2,4)\\) y una cafetería en \\((3,-1)\\).\nUna fuente circular tiene centro \\((4,-2)\\) y pasa por \\((4,3)\\). Halla su radio y ecuación.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-05.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#ejercicios-propuestos",
+    "href": "unidad-05.html#ejercicios-propuestos",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nUbica A(2,3), B(-4,0), C(0,-5), D(-2,-3).\nDetermina cuadrante o eje de cada punto anterior.\nHalla la circunferencia con centro (0,0) que pasa por (-1,-2).\nHalla la circunferencia con centro (4,-5) que pasa por (7,-3).\nCompleta cuadrados en \\(x^2+y^2+8y=0\\).\nCompleta cuadrados en \\(x^2+y^2-20x+16y+128=0\\).\nTraza \\(x^2+y^2\\ge 9\\).\nTraza \\((x-1)^2+(y+5)^2\\le 25\\).\nEncuentra intersecciones de \\(y=x^2-4\\).\nDecide simetrías de \\(y^2=16x+4\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#más-problemas-propuestos",
+    "href": "unidad-05.html#más-problemas-propuestos",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: deduce la fórmula de distancia a partir de un triángulo rectángulo.\nContexto: un aspersor está en \\((3,1)\\) y moja hasta \\(6\\) m. Escribe la desigualdad de la región mojada.\nTeórico: determina si \\(x^2+y^2=25\\) tiene simetría respecto a ambos ejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-05.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nGeometría de coordenadas\n1.8\n92\nEjercicios impares 1-45\n\n\nResolución gráfica\n1.9\n104\nEjercicios impares 1-35\n\n\nRectas\n1.10\n114\nEjercicios impares 1-59",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-05.html#actividades-sugeridas",
+    "href": "unidad-05.html#actividades-sugeridas",
+    "title": "Unidad 5: Plano cartesiano, circunferencia, intersecciones y simetría",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 5"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html",
+    "href": "unidad-07.html",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#material-base",
+    "href": "unidad-07.html#material-base",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Material base",
+    "text": "Material base\nSemana 7, semana 7 PDF y libro cap. 2. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#objetivos-de-aprendizaje",
+    "href": "unidad-07.html#objetivos-de-aprendizaje",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nReconocer cuándo una relación es función.\nCalcular dominios y rangos básicos.\nGraficar funciones constantes y lineales.\nModelar fenómenos con rectas, pendientes e intersecciones.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#conceptos-previos-necesarios",
+    "href": "unidad-07.html#conceptos-previos-necesarios",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nPlano cartesiano.\nEcuaciones lineales.\nDespeje de y.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#teoría-esencial",
+    "href": "unidad-07.html#teoría-esencial",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nUna función asigna a cada entrada del dominio una única salida. La prueba de la recta vertical detecta si una gráfica representa una función.\nEl dominio reúne las entradas permitidas. En fracciones se excluyen ceros del denominador; en raíces pares se exige radicando no negativo.\nLa función lineal \\(y=mx+b\\) tiene pendiente m e intersección con el eje y en b.\nRectas paralelas tienen la misma pendiente; rectas perpendiculares tienen pendientes cuyo producto es -1, si ninguna es vertical.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-07.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nEl libro enfatiza que una función es una regla de correspondencia: a cada entrada válida le asigna exactamente una salida.\nEl dominio se decide desde el contexto y desde la fórmula. En un modelo de tiempo, por ejemplo, valores negativos pueden no tener sentido aunque la fórmula los permita.\nLa pendiente mide rapidez de cambio promedio constante en funciones lineales.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#fórmulas-y-criterios-clave",
+    "href": "unidad-07.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(m=\\frac{y_2-y_1}{x_2-x_1}\\)\n\\(y-y_1=m(x-x_1)\\)\n\\(y=mx+b\\)\n\\(f(x)=g(x)\\) en puntos de intersección",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#ejemplos-guiados",
+    "href": "unidad-07.html#ejemplos-guiados",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nEvaluar: \\(f(x)=x^2+4\\): \\(f(3)=13\\), \\(f(-2)=8\\).\nDominio: \\(g(x)=\\frac{1}{x+3}\\) excluye \\(x=-3\\).\nRecta: Por (1,3) con pendiente 4: \\(y-3=4(x-1)\\), entonces \\(y=4x-1\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-07.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nDominio contextual. La función \\(C(x)=2500x+12000\\) modela el costo de imprimir \\(x\\) folletos. ¿Cuál es el dominio razonable?\nSolución explicada. Aunque algebraicamente acepta reales, en contexto \\(x\\) debe ser entero y \\(x\\ge 0\\).\nPendiente como cambio. Una cuenta de agua cuesta \\(18000\\) pesos fijos más \\(2200\\) por metro cúbico. ¿Qué representa la pendiente?\nSolución explicada. En \\(C(x)=18000+2200x\\), la pendiente \\(2200\\) representa el costo adicional por cada metro cúbico consumido.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#problemas-resueltos-con-contexto",
+    "href": "unidad-07.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nTaxi urbano. Un taxi cobra \\(6000\\) pesos de arranque y \\(1200\\) por kilómetro. Escribe la función de costo y calcula \\(C(8)\\).\nSolución. La función es \\(C(x)=6000+1200x\\). Para \\(8\\) km, \\(C(8)=6000+1200(8)=15600\\) pesos.\nTemperatura lineal. Una bebida está a \\(80^\\circ\\)C y baja \\(5^\\circ\\)C por minuto. Modela la temperatura después de \\(t\\) minutos.\nSolución. La función es \\(T(t)=80-5t\\). Por ejemplo, a los \\(6\\) minutos: \\(T(6)=50^\\circ\\)C.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#problemas-propuestos-con-contexto",
+    "href": "unidad-07.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUn plan de datos cobra \\(30000\\) pesos fijos más \\(4000\\) por GB adicional. Escribe \\(C(x)\\) y calcula \\(C(5)\\).\nUna vela mide \\(20\\) cm y se consume \\(1.5\\) cm por hora. Modela su altura con una función lineal.\nDos planes cuestan \\(50000+3000x\\) y \\(80000\\). Encuentra el consumo \\(x\\) donde cuestan igual.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-07.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#ejercicios-propuestos",
+    "href": "unidad-07.html#ejercicios-propuestos",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nEvalúa \\(f(x)=x^2+4\\) en 3,-2,0,1,2.\nHalla dominio de \\(f(x)=\\sqrt{x^2+2x-15}\\).\nHalla dominio de \\(f(x)=\\frac{5x}{x^2-3x-4}\\).\nDecide si una circunferencia completa es función de x.\nGrafica \\(2x-y=3\\).\nHalla la recta por (4,3) y (-2,5).\nHalla una recta perpendicular a la que pasa por (-3,-1) y (2,-3).\nModela depreciación lineal de 20000 en 25 años.\nCompara dos planes de internet: \\(50000+5000x\\) y 80000.\nInterpreta el punto donde dos rectas se cruzan en un contexto real.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#más-problemas-propuestos",
+    "href": "unidad-07.html#más-problemas-propuestos",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: usa la prueba de la recta vertical para explicar por qué una circunferencia no es función de \\(x\\).\nContexto: modela el costo de una fotocopiadora que cobra \\(100\\) pesos por copia más \\(3000\\) de servicio.\nTeórico: encuentra la pendiente de la recta que pasa por \\((-2,5)\\) y \\((4,-1)\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-07.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nConcepto de función\n2.1\n148\nEjercicios impares 1-45\n\n\nGráficas de funciones\n2.2\n158\nEjercicios impares 1-47\n\n\nInformación desde la gráfica\n2.3\n168\nEjercicios impares 1-37\n\n\nRectas\n1.10\n114\nEjercicios impares 1-59",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-07.html#actividades-sugeridas",
+    "href": "unidad-07.html#actividades-sugeridas",
+    "title": "Unidad 7: Funciones, dominio, rango, gráficas y función lineal",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 7"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html",
+    "href": "unidad-09.html",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#material-base",
+    "href": "unidad-09.html#material-base",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Material base",
+    "text": "Material base\nSemana 9, actividad 9 y libro cap. 2. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#objetivos-de-aprendizaje",
+    "href": "unidad-09.html#objetivos-de-aprendizaje",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nCombinar funciones mediante suma, producto y cociente.\nCalcular composiciones \\(f(g(x))\\) y \\(g(f(x))\\).\nReconocer funciones uno a uno.\nEncontrar e interpretar inversas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#conceptos-previos-necesarios",
+    "href": "unidad-09.html#conceptos-previos-necesarios",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nEvaluación de funciones.\nDespeje algebraico.\nGráficas y recta \\(y=x\\).\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#teoría-esencial",
+    "href": "unidad-09.html#teoría-esencial",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nLas funciones pueden combinarse como números: f+g, f-g, fg y f/g, cuidando dominios.\nLa composición \\(f(g(x))\\) significa aplicar primero g y luego f. En modelos, conecta etapas de un proceso.\nUna función inversa deshace la acción de una función uno a uno. Si \\(f(a)=b\\), entonces \\(f^{-1}(b)=a\\).\nLas gráficas de f y \\(f^{-1}\\) son reflejos respecto a la recta \\(y=x\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-09.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nLa combinación de funciones permite construir modelos por etapas. Esto aparece con frecuencia en sensores, descuentos, impuestos y conversiones.\nLa composición no suele ser conmutativa: en general \\(f(g(x))\\ne g(f(x))\\).\nUna inversa intercambia entrada y salida; por eso sus unidades también se invierten en el contexto.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#fórmulas-y-criterios-clave",
+    "href": "unidad-09.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\((f\\circ g)(x)=f(g(x))\\)\n\\(f(f^{-1}(x))=x\\)\n\\(f^{-1}(f(x))=x\\)\nPara hallar inversa: \\(y=f(x)\\), despejar \\(x\\), intercambiar \\(x\\) y \\(y\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#ejemplos-guiados",
+    "href": "unidad-09.html#ejemplos-guiados",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nComposición: \\(f(x)=2x+3\\), \\(g(x)=x^2+1\\): \\(f(g(x))=2x^2+5\\).\nInversa lineal: \\(h(x)=3x-1\\Rightarrow y=3x-1\\Rightarrow x=\\frac{y+1}{3}\\Rightarrow h^{-1}(x)=\\frac{x+1}{3}\\).\nRacional: \\(f(x)=\\frac{2x+3}{x-1}\\Rightarrow f^{-1}(x)=\\frac{x+3}{x-2}\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-09.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nOrden de descuentos. Un producto recibe primero descuento de \\(20\\%\\) y luego se suma envío de \\(12000\\). Define \\(d(x)=0.8x\\) y \\(e(x)=x+12000\\). Compara \\(e(d(x))\\) y \\(d(e(x))\\).\nSolución explicada. \\(e(d(x))=0.8x+12000\\), mientras \\(d(e(x))=0.8(x+12000)=0.8x+9600\\). El orden cambia el resultado.\nInversa contextual. Si \\(C(h)=40000+25000h\\) modela un servicio por horas, halla \\(C^{-1}(y)\\).\nSolución explicada. \\(y=40000+25000h\\), entonces \\(h=\\frac{y-40000}{25000}\\). La inversa da las horas contratadas a partir del costo total.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#problemas-resueltos-con-contexto",
+    "href": "unidad-09.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nTemperatura y voltaje. Un sensor convierte temperatura en voltaje con \\(V(T)=0.02T+1.2\\) y el sistema convierte voltaje en señal con \\(S(V)=25V-10\\). Halla \\(S(V(T))\\).\nSolución. Sustituimos: \\(S(V(T))=25(0.02T+1.2)-10=0.5T+20\\).\nDescuento e impuesto. Un producto cuesta \\(x\\). Primero recibe \\(10\\%\\) de descuento: \\(d(x)=0.9x\\). Luego se aplica IVA del \\(19\\%\\): \\(i(x)=1.19x\\). Halla \\(i(d(x))\\).\nSolución. \\(i(d(x))=1.19(0.9x)=1.071x\\). El precio final es el \\(107.1\\%\\) del precio inicial.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#problemas-propuestos-con-contexto",
+    "href": "unidad-09.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUn salario base pasa por una bonificación \\(B(x)=x+150000\\) y luego un descuento \\(D(x)=0.92x\\). Halla \\(D(B(x))\\).\nUna tarifa por horas es \\(C(h)=50000+30000h\\). Halla la inversa e interpreta qué devuelve.\nUn termómetro convierte Celsius a Fahrenheit con \\(F(C)=1.8C+32\\). Halla \\(F^{-1}(x)\\) e interpreta.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-09.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#ejercicios-propuestos",
+    "href": "unidad-09.html#ejercicios-propuestos",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nCalcula f o g, g o f, f o f y g o g para \\(f(x)=x^2+3\\), \\(g(x)=x-1\\).\nRepite con \\(f(x)=3x-1\\) y \\(g(x)=x^3+1\\).\nHalla la inversa de \\(f(x)=3x-1\\).\nHalla la inversa de \\(f(x)=3x-2\\).\nDemuestra que dos funciones dadas son inversas por composición.\nModela S(V(T)) si V(T)=0.02T+1.2 y S(V)=25V-10.\nInterpreta la inversa de una tarifa 500+80x.\nDecide si \\(f(x)=-2(x-2)^2+4\\) tiene inversa en todos los reales.\nUsa la gráfica de una función y refleja puntos respecto a \\(y=x\\).\nDiseña un proceso de dos etapas y escríbelo como composición.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#más-problemas-propuestos",
+    "href": "unidad-09.html#más-problemas-propuestos",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: calcula \\(f(g(x))\\) y \\(g(f(x))\\) para \\(f(x)=x+2\\) y \\(g(x)=x^2\\).\nContexto: combina una conversión de kilómetros a metros con una tarifa por metro recorrido.\nTeórico: explica por qué una función que no es uno a uno no tiene inversa como función en todo su dominio.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-09.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nCombinación de funciones\n2.6\n196\nEjercicios impares 1-49\n\n\nFunciones uno a uno e inversas\n2.7\n204\nEjercicios impares 1-55\n\n\nRepaso de funciones\nCapítulo 2 Repaso\n207\nEjercicios impares relacionados",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-09.html#actividades-sugeridas",
+    "href": "unidad-09.html#actividades-sugeridas",
+    "title": "Unidad 9: Composición de funciones y función inversa",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 9"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html",
+    "href": "unidad-11.html",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#material-base",
+    "href": "unidad-11.html#material-base",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Material base",
+    "text": "Material base\nLibro cap. 3, sección funciones racionales. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#objetivos-de-aprendizaje",
+    "href": "unidad-11.html#objetivos-de-aprendizaje",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nDeterminar dominio de funciones racionales.\nIdentificar asíntotas verticales, horizontales y huecos.\nGraficar funciones racionales básicas.\nResolver aplicaciones de razón y variación.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#conceptos-previos-necesarios",
+    "href": "unidad-11.html#conceptos-previos-necesarios",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nFactorización.\nDominio de funciones.\nCeros de polinomios.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#teoría-esencial",
+    "href": "unidad-11.html#teoría-esencial",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nUna función racional es cociente de polinomios \\(\\frac{P(x)}{Q(x)}\\), con \\(Q(x)\\) distinto de cero.\nLos ceros del denominador que no se cancelan producen asíntotas verticales. Si un factor se cancela, aparece un hueco en la gráfica.\nLa asíntota horizontal depende de los grados: si grado de P menor que grado de Q, \\(y=0\\); si son iguales, y es cociente de coeficientes principales.\nEstas funciones modelan tasas, costos promedio, concentración y relaciones inversas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-11.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nLas funciones racionales aparecen al estudiar razones: costo promedio, velocidad promedio, densidad y concentración.\nLas asíntotas describen comportamiento límite, no valores que la función necesariamente toma.\nUna discontinuidad removible aparece cuando un factor se cancela; una asíntota vertical aparece cuando el factor permanece en el denominador.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#fórmulas-y-criterios-clave",
+    "href": "unidad-11.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\nDominio: reales excepto \\(Q(x)\\)=0\nAsíntota vertical: factor no cancelado del denominador = 0\nSi \\(\\deg P&lt;\\deg Q\\), AH: \\(y=0\\)\nSi \\(\\deg P=\\deg Q\\), AH: \\(y=\\frac{a_n}{b_n}\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#ejemplos-guiados",
+    "href": "unidad-11.html#ejemplos-guiados",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nDominio: \\(f(x)=\\frac{5x}{x^2-3x-4}\\) excluye \\(x=4\\) y \\(x=-1\\).\nHueco: \\(\\frac{x^2-1}{x-1}=x+1\\), pero \\(x=1\\) no pertenece al dominio original.\nAsíntotas: \\(f(x)=\\frac{2}{x-3}+1\\) tiene AV \\(x=3\\) y AH \\(y=1\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-11.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nHueco en una gráfica. Analiza \\(f(x)=\\frac{x^2-4}{x-2}\\).\nSolución explicada. Factorizamos: \\(f(x)=\\frac{(x-2)(x+2)}{x-2}=x+2\\), con \\(x\\ne 2\\). La gráfica es la recta \\(y=x+2\\) con un hueco en \\(x=2\\).\nAsíntota vertical. Encuentra la asíntota vertical de \\(g(x)=\\frac{5}{x+1}\\).\nSolución explicada. El denominador se anula en \\(x=-1\\) y no hay cancelación. La asíntota vertical es \\(x=-1\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#problemas-resueltos-con-contexto",
+    "href": "unidad-11.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nCosto promedio. Una empresa tiene costo total \\(C(x)=5000+20x\\). El costo promedio es \\(A(x)=\\frac{5000+20x}{x}\\). Simplifica e interpreta.\nSolución. Se obtiene \\(A(x)=\\frac{5000}{x}+20\\). A mayor producción, \\(\\frac{5000}{x}\\) baja y el promedio se acerca a \\(20\\).\nConcentración. La concentración de una mezcla se modela con \\(M(t)=\\frac{30}{t+2}\\). ¿Qué ocurre cuando \\(t\\) crece?\nSolución. Cuando \\(t\\) aumenta, el denominador crece y \\(M(t)\\) disminuye. La asíntota horizontal es \\(y=0\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#problemas-propuestos-con-contexto",
+    "href": "unidad-11.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUn costo promedio está dado por \\(A(x)=\\frac{12000+50x}{x}\\). Simplifica e interpreta.\nLa rapidez promedio de un viaje es \\(v(t)=\\frac{180}{t}\\). Describe su dominio en contexto.\nAnaliza la asíntota vertical de \\(f(x)=\\frac{1}{x-5}\\) en una situación donde \\(x=5\\) no sea posible.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-11.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#ejercicios-propuestos",
+    "href": "unidad-11.html#ejercicios-propuestos",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nHalla dominio de \\(\\frac{x+2}{x^2-9}\\).\nEncuentra asíntotas de \\(\\frac{1}{x-4}\\).\nGrafica \\(y=\\frac{1}{x}\\) y \\(y=\\frac{1}{x+2}-3\\).\nDistingue hueco y asíntota en \\(\\frac{x^2-4}{x-2}\\).\nHalla interceptos de \\(\\frac{x-1}{x+3}\\).\nDetermina AH de \\(\\frac{3x^2+1}{x^2-5}\\).\nDetermina AH de \\(\\frac{x+1}{x^3+2}\\).\nCrea una situación de costo promedio \\(C(x)=\\frac{\\text{total}}{x}\\).\nResuelve una desigualdad racional sencilla.\nResume en una tabla dominio, interceptos y asíntotas de una función racional propia.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#más-problemas-propuestos",
+    "href": "unidad-11.html#más-problemas-propuestos",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: diferencia entre hueco y asíntota vertical usando un ejemplo de cada uno.\nContexto: un viaje de \\(120\\) km tiene rapidez promedio \\(v(t)=\\frac{120}{t}\\). Interpreta la asíntota horizontal.\nTeórico: determina el dominio de \\(f(x)=\\frac{x+3}{x^2-9}\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-11.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nFunciones racionales\n3.7\n288\nEjercicios impares 1-57\n\n\nModelos de variación\n1.11\n120\nEjercicios impares 1-31\n\n\nRepaso de polinomiales y racionales\nCapítulo 3 Repaso\n292\nEjercicios impares relacionados",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-11.html#actividades-sugeridas",
+    "href": "unidad-11.html#actividades-sugeridas",
+    "title": "Unidad 11: Funciones racionales, asíntotas y variación",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 11"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html",
+    "href": "unidad-13.html",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#material-base",
+    "href": "unidad-13.html#material-base",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Material base",
+    "text": "Material base\nSemana 13 y libro cap. 4. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#objetivos-de-aprendizaje",
+    "href": "unidad-13.html#objetivos-de-aprendizaje",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nReconocer funciones exponenciales.\nGraficar crecimiento y decrecimiento.\nAplicar transformaciones.\nModelar interés compuesto y crecimiento logístico básico.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#conceptos-previos-necesarios",
+    "href": "unidad-13.html#conceptos-previos-necesarios",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nLeyes de exponentes.\nFunciones e inversas.\nLectura de gráficas.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#teoría-esencial",
+    "href": "unidad-13.html#teoría-esencial",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nUna función exponencial tiene forma \\(f(x)=a^x\\), con \\(a&gt;0\\) y a distinto de 1. Si \\(a&gt;1\\) crece; si \\(0&lt;a&lt;1\\) decrece.\nTodas las gráficas \\(y=a^x\\) pasan por (0,1) y tienen asíntota horizontal \\(y=0\\) antes de transformaciones.\nLa base e aparece en crecimiento continuo y modelos naturales.\nEl interés compuesto usa una potencia porque el capital se actualiza en cada periodo.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-13.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nLas funciones exponenciales modelan cambios porcentuales constantes. La variable aparece en el exponente porque el cambio se acumula por periodos.\nSi la base es mayor que \\(1\\), hay crecimiento; si está entre \\(0\\) y \\(1\\), hay decrecimiento.\nLa función \\(e^x\\) aparece en modelos de crecimiento continuo y sirve como base natural para cálculo.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#fórmulas-y-criterios-clave",
+    "href": "unidad-13.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(f(x)=a^x\\)\n\\(f(x)=Aa^x\\)\n\\(A=P\\left(1+\\frac rn\\right)^{nt}\\)\n\\(f(x)=e^x\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#ejemplos-guiados",
+    "href": "unidad-13.html#ejemplos-guiados",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nCrecimiento: \\(f(x)=3^x\\): \\(f(0)=1\\), \\(f(1)=3\\), \\(f(2)=9\\).\nDecrecimiento: \\(f(x)=\\left(\\frac13\\right)^x\\) disminuye y pasa por (0,1).\nInterés: P=1000, r=0.12, mensual, t=1: \\(A=1000\\left(1+\\frac{0.12}{12}\\right)^{12}\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-13.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nDuplicación. Una población inicial de \\(300\\) bacterias se duplica cada hora. Modela y calcula después de \\(5\\) horas.\nSolución explicada. El modelo es \\(P(t)=300\\cdot 2^t\\). Entonces \\(P(5)=300\\cdot 32=9600\\) bacterias.\nDecrecimiento porcentual. Un equipo de \\(5000000\\) pesos pierde \\(18\\%\\) anual. ¿Cuánto vale tras \\(3\\) años?\nSolución explicada. El modelo es \\(V(t)=5000000(0.82)^t\\). Entonces \\(V(3)=5000000(0.82)^3\\approx 2756840\\) pesos.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#problemas-resueltos-con-contexto",
+    "href": "unidad-13.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\nCrecimiento de seguidores. Una cuenta tiene \\(1000\\) seguidores y crece \\(8\\%\\) mensual. Modela los seguidores después de \\(t\\) meses.\nSolución. El modelo es \\(F(t)=1000(1.08)^t\\). Después de \\(6\\) meses: \\(F(6)=1000(1.08)^6\\approx 1587\\).\nDepreciación. Un computador de \\(3000000\\) pesos pierde \\(12\\%\\) de valor anual. Modela su valor después de \\(t\\) años.\nSolución. El modelo es \\(V(t)=3000000(0.88)^t\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#problemas-propuestos-con-contexto",
+    "href": "unidad-13.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUna población de bacterias se duplica cada \\(3\\) horas. Si inicia con \\(500\\), escribe el modelo.\nUna moto de \\(8000000\\) pesos pierde \\(15\\%\\) anual. Modela su valor después de \\(t\\) años.\nUn ahorro de \\(1000000\\) crece al \\(1.5\\%\\) mensual. Calcula el valor después de \\(12\\) meses.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-13.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#ejercicios-propuestos",
+    "href": "unidad-13.html#ejercicios-propuestos",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nCompleta tabla para \\(f(x)=3^x\\) con x=-2,-1,0,1,2.\nCompleta tabla para \\(f(x)=\\left(\\frac13\\right)^x\\).\nIdentifica intersección con eje y y asíntota de \\(4^x\\).\nGrafica \\(2^x+3\\).\nGrafica \\(2^{x-1}\\).\nDecide si una función exponencial es creciente o decreciente.\nCalcula interés compuesto anual y mensual para el mismo capital.\nModela una población que se duplica cada 5 horas.\nInterpreta una función logística de forma verbal.\nCompara crecimiento lineal y exponencial con una tabla.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#más-problemas-propuestos",
+    "href": "unidad-13.html#más-problemas-propuestos",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: compara las gráficas de \\(2^x\\) y \\(\\left(\\frac12\\right)^x\\).\nContexto: una inversión crece \\(6\\%\\) anual. Modela \\(A(t)\\) si inicia en \\(2000000\\) pesos.\nTeórico: explica por qué \\(a^0=1\\) hace que toda exponencial \\(a^x\\) pase por \\((0,1)\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-13.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nFunciones exponenciales\n4.1\n306\nEjercicios impares 1-55\n\n\nFunción exponencial natural\n4.2\n312\nEjercicios impares 1-35\n\n\nModelado exponencial\n4.6\n350\nEjercicios impares 1-45",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-13.html#actividades-sugeridas",
+    "href": "unidad-13.html#actividades-sugeridas",
+    "title": "Unidad 13: Funciones exponenciales y crecimiento",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 13"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html",
+    "href": "unidad-15.html",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "",
+    "text": "NotaPropósito de la unidad\n\n\n\nEsta unidad está pensada para un estudiante de primer semestre. Avanza desde los conceptos previos hasta ejercicios de práctica, con ejemplos cortos antes de las actividades propuestas.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#material-base",
+    "href": "unidad-15.html#material-base",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Material base",
+    "text": "Material base\nSemana 15, actividad 15 y libro cap. 4. El contenido se apoya en las diapositivas, actividades entregadas y el libro Precálculo: Matemáticas para el cálculo disponible en la carpeta books.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#objetivos-de-aprendizaje",
+    "href": "unidad-15.html#objetivos-de-aprendizaje",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nResolver ecuaciones exponenciales con la misma base.\nResolver ecuaciones usando logaritmos.\nResolver ecuaciones logarítmicas revisando dominio.\nAplicar modelos de pH, Richter, decaimiento y aprendizaje.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#conceptos-previos-necesarios",
+    "href": "unidad-15.html#conceptos-previos-necesarios",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Conceptos previos necesarios",
+    "text": "Conceptos previos necesarios\nAntes de iniciar, verifica que puedes manejar estos puntos:\n\nExponentes.\nLeyes de logaritmos.\nDominio logarítmico.\n\n\n\n\n\n\n\nTipSi necesitas repasar\n\n\n\nSi alguno de estos conceptos no está claro, resuelve tres ejercicios cortos de repaso antes de pasar a la teoría. En precálculo, la mayoría de errores aparecen por fallas en aritmética, signos, fracciones o despejes.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#teoría-esencial",
+    "href": "unidad-15.html#teoría-esencial",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Teoría esencial",
+    "text": "Teoría esencial\nSi \\(a^x=a^y\\) con \\(a&gt;0\\) y a distinto de 1, entonces \\(x=y\\). Esta idea resuelve ecuaciones con bases reescribibles.\nCuando las bases no son iguales, se aplican logaritmos a ambos lados.\nEn ecuaciones logarítmicas, toda solución debe verificarse en el dominio original.\nLas escalas logarítmicas comparan razones: una diferencia en magnitud puede representar multiplicar la intensidad.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#ampliación-conceptual-basada-en-el-libro",
+    "href": "unidad-15.html#ampliación-conceptual-basada-en-el-libro",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Ampliación conceptual basada en el libro",
+    "text": "Ampliación conceptual basada en el libro\nLas ecuaciones exponenciales se resuelven igualando bases cuando es posible o aplicando logaritmos cuando no lo es.\nEn ecuaciones logarítmicas, las soluciones algebraicas siempre deben comprobarse en el dominio original.\nLos modelos logarítmicos aparecen en pH, intensidad sonora y escala de Richter porque comparan órdenes de magnitud.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#fórmulas-y-criterios-clave",
+    "href": "unidad-15.html#fórmulas-y-criterios-clave",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Fórmulas y criterios clave",
+    "text": "Fórmulas y criterios clave\n\n\\(a^x=a^y\\Longrightarrow x=y\\)\n\\(\\log_a(x)=\\log_a(y)\\Longrightarrow x=y\\), con \\(x,y&gt;0\\)\n\\(\\operatorname{pH}=-\\log[H^+]\\)\n\\(M=\\log\\left(\\frac IS\\right)\\)",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#ejemplos-guiados",
+    "href": "unidad-15.html#ejemplos-guiados",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Ejemplos guiados",
+    "text": "Ejemplos guiados\n\nMisma base: \\(2^{x-3}=8^{x+1}=2^{3x+3}\\Rightarrow x-3=3x+3\\Rightarrow x=-3\\).\nLogarítmica: \\(\\log x+\\log(x+1)=\\log 12\\Rightarrow x(x+1)=12\\Rightarrow x=3\\), se descarta \\(x=-4\\).\nRichter: Diferencia \\(8.3-4.9=3.4\\); razón de intensidades \\(=10^{3.4}\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#ejercicios-resueltos-adicionales",
+    "href": "unidad-15.html#ejercicios-resueltos-adicionales",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Ejercicios resueltos adicionales",
+    "text": "Ejercicios resueltos adicionales\n\nResolver con logaritmos. Resuelve \\(3^x=20\\).\nSolución explicada. Aplicamos logaritmos: \\(x\\log 3=\\log 20\\), por tanto \\(x=\\frac{\\log 20}{\\log 3}\\approx 2.73\\).\nVerificar dominio. Resuelve \\(\\log(x-1)=\\log(5)\\).\nSolución explicada. Como los logaritmos son uno a uno, \\(x-1=5\\), así \\(x=6\\). Verificación: \\(6-1=5&gt;0\\), válida.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#problemas-resueltos-con-contexto",
+    "href": "unidad-15.html#problemas-resueltos-con-contexto",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Problemas resueltos con contexto",
+    "text": "Problemas resueltos con contexto\n\npH de una bebida. Si una bebida tiene \\([H^+]=10^{-3}\\), calcula su pH.\nSolución. Usamos \\(\\operatorname{pH}=-\\log[H^+]\\). Entonces \\(\\operatorname{pH}=-\\log(10^{-3})=3\\).\nVida media. Una sustancia inicia con \\(80\\) mg y su vida media es \\(6\\) horas. ¿Cuánto queda después de \\(12\\) horas?\nSolución. El modelo es \\(A(t)=80\\left(\\frac12\\right)^{t/6}\\). Entonces \\(A(12)=80\\left(\\frac12\\right)^2=20\\) mg.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#problemas-propuestos-con-contexto",
+    "href": "unidad-15.html#problemas-propuestos-con-contexto",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Problemas propuestos con contexto",
+    "text": "Problemas propuestos con contexto\n\nUna solución tiene \\([H^+]=10^{-5}\\). Calcula su pH y clasifícala.\nUna muestra radiactiva inicia con \\(50\\) mg y vida media de \\(8\\) horas. ¿Cuánto queda tras \\(24\\) horas?\nUn terremoto de magnitud \\(7.2\\) y otro de \\(5.2\\) difieren en intensidad por un factor de cuánto?",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#guía-previa-para-resolver-los-ejercicios",
+    "href": "unidad-15.html#guía-previa-para-resolver-los-ejercicios",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Guía previa para resolver los ejercicios",
+    "text": "Guía previa para resolver los ejercicios\nAntes de pasar a la lista, clasifica cada ejercicio según lo que pide: operar, despejar, interpretar, modelar o graficar. Luego escribe los datos conocidos, la propiedad o fórmula que corresponde y una verificación corta del resultado.\nCuando el ejercicio pida graficar, procede así:\n\nIdentifica la función base y sus rasgos principales.\nDetermina interceptos, dominio, rango, asíntotas, vértice, periodo o línea media, según el tipo de función.\nConstruye una tabla breve con puntos fáciles de calcular.\nUbica primero los puntos y rasgos clave; después une con la forma esperada de la función.\nRevisa que la gráfica respete el dominio y el comportamiento final.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#ejercicios-propuestos",
+    "href": "unidad-15.html#ejercicios-propuestos",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Ejercicios propuestos",
+    "text": "Ejercicios propuestos\n\nResuelve \\(2^{x+5}=8^{x-1}\\).\nResuelve \\(7^{2(x+1)}=343\\).\nResuelve \\(\\log_5\\left(\\frac{x+1}{2}\\right)=2\\).\nResuelve \\(\\log x+\\log(x+1)=\\log 12\\).\nResuelve \\(10^{2x}=48\\), redondea.\nResuelve \\(100(1.04)^{12t}=300\\).\nUsa \\(\\operatorname{pH}=-\\log[H^+]\\) para clasificar una sustancia.\nCalcula cuántas veces más intenso fue un sismo 8.3 que uno 4.9.\nModela decaimiento de tecnecio con vida media 6 h.\nResuelve una curva de aprendizaje \\(y=A(1-e^{-kt})\\) con dos datos.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#más-problemas-propuestos",
+    "href": "unidad-15.html#más-problemas-propuestos",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Más problemas propuestos",
+    "text": "Más problemas propuestos\n\nTeórico: resuelve \\(e^{2x}=7\\) usando \\(\\ln\\).\nContexto: si un cultivo sigue \\(P(t)=100e^{0.2t}\\), encuentra cuándo llega a \\(500\\).\nTeórico: explica por qué \\(x=-2\\) no puede ser solución de \\(\\log(x+1)=3\\).",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "href": "unidad-15.html#ejercicios-sugeridos-del-libro-de-referencia",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Ejercicios sugeridos del libro de referencia",
+    "text": "Ejercicios sugeridos del libro de referencia\nDel libro Precálculo: Matemáticas para el cálculo de Stewart, Redlin y Watson, trabaja ejercicios impares seleccionados y luego compara con las respuestas del final del libro.\n\n\n\n\n\n\n\n\n\nTema\nSección del libro\nPágina de ejercicios\nSugerencia\n\n\n\n\nEcuaciones exponenciales y logarítmicas\n4.5\n338\nEjercicios impares 1-83\n\n\nModelado exponencial y logarítmico\n4.6\n350\nEjercicios impares 1-57\n\n\nRepaso del capítulo\nCapítulo 4 Repaso\n353\nEjercicios impares relacionados",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  },
+  {
+    "objectID": "unidad-15.html#actividades-sugeridas",
+    "href": "unidad-15.html#actividades-sugeridas",
+    "title": "Unidad 15: Ecuaciones exponenciales, logarítmicas y aplicaciones",
+    "section": "Actividades sugeridas",
+    "text": "Actividades sugeridas\n\nAntes de clase: lee la teoría esencial y resuelve los tres primeros ejercicios sin mirar los ejemplos.\nDurante la clase: trabaja los ejemplos guiados y compara el procedimiento con un compañero.\nDespués de clase: completa los ejercicios restantes y escribe una duda concreta por cada error repetido.\nCierre: crea un ejercicio similar a uno de la lista y resuélvelo explicando cada paso.",
+    "crumbs": [
+      "Inicio",
+      "Unidades",
+      "Unidad 15"
+    ]
+  }
+]
