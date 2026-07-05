@@ -9,6 +9,27 @@ Este sitio organiza el curso en 16 unidades independientes. Cada unidad conserva
 
 El material base corresponde a los documentos entregados en `books` y al libro **Precálculo: Matemáticas para el cálculo** incluido en esa carpeta.
 
+## Biblioteca de precálculo
+
+Estos enlaces abren los libros PDF en una pestaña nueva del navegador, por fuera de la navegación del curso.
+
+::: {.book-links}
+- [Precálculo: Matemáticas para el cálculo](books/precalculo_-_matematicas_para_el_calculo-1%20(1).pdf){target="_blank" rel="noopener"}
+- [Libro Pre-Cálculo James Stewart](books/Libro_Pre_Calculo_James_Stewar.pdf){target="_blank" rel="noopener"}
+- [Precálculo Sullivan](books/precalculo_sullivan.pdf){target="_blank" rel="noopener"}
+- [90 lecciones de precálculo](books/90lecciones%20Precalculo.pdf){target="_blank" rel="noopener"}
+- [Vista previa ISBN 9788429194609](books/preview-9788429194609_A39629294.pdf){target="_blank" rel="noopener"}
+:::
+
+<details class="book-preview">
+<summary>Visualizar el libro base dentro de esta página</summary>
+<iframe
+  src="books/precalculo_-_matematicas_para_el_calculo-1%20(1).pdf"
+  title="Precálculo: Matemáticas para el cálculo"
+  loading="lazy">
+</iframe>
+</details>
+
 ## Unidades
 
 - [Unidad 1: Números reales, operaciones, exponentes y radicales](unidad-01.qmd)

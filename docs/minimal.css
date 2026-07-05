@@ -66,3 +66,60 @@ blockquote {
   color: var(--course-muted);
   border-left: 3px solid var(--course-line);
 }
+
+.book-links ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.6rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.book-links li {
+  margin-bottom: 0;
+}
+
+.book-links a {
+  display: block;
+  min-height: 3.25rem;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--course-line);
+  border-radius: 8px;
+  background: var(--course-soft);
+  text-decoration: none;
+  font-weight: 650;
+}
+
+.book-links a:hover,
+.book-links a:focus {
+  border-color: var(--course-accent);
+  color: var(--course-accent);
+}
+
+.book-preview {
+  margin: 1rem 0 2rem;
+  border: 1px solid var(--course-line);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.book-preview summary {
+  cursor: pointer;
+  padding: 0.85rem 1rem;
+  font-weight: 700;
+}
+
+.book-preview iframe {
+  display: block;
+  width: 100%;
+  height: min(78vh, 760px);
+  min-height: 460px;
+  border: 0;
+  border-top: 1px solid var(--course-line);
+}
+
+@media (max-width: 640px) {
+  .book-preview iframe {
+    min-height: 360px;
+  }
+}
