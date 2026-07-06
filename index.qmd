@@ -7,28 +7,56 @@ subtitle: "Curso de precálculo organizado por unidades semanales"
 
 Este sitio organiza el curso en 16 unidades independientes. Cada unidad conserva la estructura solicitada: conceptos previos, teoría, ejemplos guiados, ejercicios propuestos y actividades sugeridas antes, durante y después de clase.
 
-El material base corresponde a los documentos entregados en `books` y al libro **Precálculo: Matemáticas para el cálculo** incluido en esa carpeta.
+El material base corresponde a los documentos entregados en `books` y a la biblioteca de precálculo disponible desde este portal.
 
 ## Biblioteca de precálculo
 
-Estos enlaces abren los libros PDF en una pestaña nueva del navegador, por fuera de la navegación del curso.
+Estos enlaces abren los libros PDF en una pestaña nueva del navegador. Las vistas previas de abajo permiten consultarlos sin salir del portal.
 
 ::: {.book-links}
-- [Precálculo: Matemáticas para el cálculo](books/precalculo_-_matematicas_para_el_calculo-1%20(1).pdf){target="_blank" rel="noopener"}
-- [Libro Pre-Cálculo James Stewart](books/Libro_Pre_Calculo_James_Stewar.pdf){target="_blank" rel="noopener"}
+- [Precálculo Larson](books/precalculo_larson.pdf){target="_blank" rel="noopener"}
+- [Precálculo Stewart, 5.ª edición](books/precalculo_stewart5.pdf){target="_blank" rel="noopener"}
+- [Precálculo Stewart, 6.ª edición](books/precalculo_stewart6.pdf){target="_blank" rel="noopener"}
 - [Precálculo Sullivan](books/precalculo_sullivan.pdf){target="_blank" rel="noopener"}
-- [90 lecciones de precálculo](books/90lecciones%20Precalculo.pdf){target="_blank" rel="noopener"}
-- [Vista previa ISBN 9788429194609](books/preview-9788429194609_A39629294.pdf){target="_blank" rel="noopener"}
 :::
 
+::: {.book-previews}
 <details class="book-preview">
-<summary>Visualizar el libro base dentro de esta página</summary>
+<summary>Visualizar Precálculo Larson</summary>
 <iframe
-  src="books/precalculo_-_matematicas_para_el_calculo-1%20(1).pdf"
-  title="Precálculo: Matemáticas para el cálculo"
+  src="books/precalculo_larson.pdf"
+  title="Precálculo Larson"
   loading="lazy">
 </iframe>
 </details>
+
+<details class="book-preview">
+<summary>Visualizar Precálculo Stewart, 5.ª edición</summary>
+<iframe
+  src="books/precalculo_stewart5.pdf"
+  title="Precálculo Stewart, 5.ª edición"
+  loading="lazy">
+</iframe>
+</details>
+
+<details class="book-preview">
+<summary>Visualizar Precálculo Stewart, 6.ª edición</summary>
+<iframe
+  src="books/precalculo_stewart6.pdf"
+  title="Precálculo Stewart, 6.ª edición"
+  loading="lazy">
+</iframe>
+</details>
+
+<details class="book-preview">
+<summary>Visualizar Precálculo Sullivan</summary>
+<iframe
+  src="books/precalculo_sullivan.pdf"
+  title="Precálculo Sullivan"
+  loading="lazy">
+</iframe>
+</details>
+:::
 
 ## Unidades
 

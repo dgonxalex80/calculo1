@@ -4,7 +4,10 @@ project:
   render:
     - "*.qmd"
   resources:
-    - books/**
+    - books/precalculo_larson.pdf
+    - books/precalculo_stewart5.pdf
+    - books/precalculo_stewart6.pdf
+    - books/precalculo_sullivan.pdf
 
 website:
   title: "Matemáticas Fundamentales"
